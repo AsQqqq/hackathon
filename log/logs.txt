@@ -524,3 +524,71 @@
 19:25:00,547 custom.clog [[32mINFO[0m] dasdsa
 19:25:00,563 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "POST /send HTTP/1.1" 200 -
 19:25:00,650 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "GET /static/css/style.css HTTP/1.1" 200 -
+19:28:29,104 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+19:28:29,232 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:28:29,780 custom.clog [[32mINFO[0m] Запуск файла
+19:28:29,787 custom.clog [[32mINFO[0m] Файл прогружен
+19:28:29,788 custom.clog [[33mWARNING[0m] Запуск кода
+19:28:29,802 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:28:29,802 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:34:03,695 custom.clog [[33mWARNING[0m] Upload route files
+19:34:03,696 custom.clog [[32mINFO[0m] Files "route" upload
+19:34:03,710 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:34:03,710 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:34:03,712 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:34:04,130 custom.clog [[33mWARNING[0m] Upload route files
+19:34:04,131 custom.clog [[32mINFO[0m] Files "route" upload
+19:34:04,137 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:34:04,137 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:34:08,976 custom.clog [[32mINFO[0m] dasdsa
+19:34:08,987 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:34:08] "POST /send HTTP/1.1" 200 -
+19:34:09,67 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:34:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:34:20,475 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:34:20] "GET / HTTP/1.1" 200 -
+19:34:20,566 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:34:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:35:04,471 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+19:35:04,587 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:35:05,133 custom.clog [[33mWARNING[0m] Upload route files
+19:35:05,133 custom.clog [[32mINFO[0m] Files "route" upload
+19:35:05,143 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:35:05,144 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:35:08,173 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+19:35:08,291 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:35:57,135 custom.clog [[33mWARNING[0m] Upload route files
+19:35:57,135 custom.clog [[32mINFO[0m] Files "route" upload
+19:35:57,145 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:35:57,145 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:35:57,147 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:35:57,576 custom.clog [[33mWARNING[0m] Upload route files
+19:35:57,576 custom.clog [[32mINFO[0m] Files "route" upload
+19:35:57,586 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:35:57,588 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:36:00,519 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:00] "GET / HTTP/1.1" 200 -
+19:36:00,603 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:36:03,367 custom.clog [[32mINFO[0m] Hello
+19:36:03,368 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:03] "[32mPOST /send HTTP/1.1[0m" 302 -
+19:36:18,722 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+19:36:18,853 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:36:19,392 custom.clog [[33mWARNING[0m] Upload route files
+19:36:19,392 custom.clog [[32mINFO[0m] Files "route" upload
+19:36:19,400 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:36:19,400 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:36:20,729 custom.clog [[33mWARNING[0m] Upload route files
+19:36:20,729 custom.clog [[32mINFO[0m] Files "route" upload
+19:36:20,745 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:36:20,746 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:36:20,747 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:36:21,291 custom.clog [[33mWARNING[0m] Upload route files
+19:36:21,291 custom.clog [[32mINFO[0m] Files "route" upload
+19:36:21,300 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:36:21,302 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:36:26,31 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:26] "GET / HTTP/1.1" 200 -
+19:36:26,156 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:36:29,849 custom.clog [[32mINFO[0m] hello
+19:36:29,849 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:29] "[32mPOST /send HTTP/1.1[0m" 302 -
+19:36:29,866 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:29] "GET / HTTP/1.1" 200 -
+19:36:29,945 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:36:33,866 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:33] "GET / HTTP/1.1" 200 -
+19:36:33,934 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:36:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
