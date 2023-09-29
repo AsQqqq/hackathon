@@ -1,6 +1,7 @@
 # v1
 from flask import Flask, render_template, request
 from custom import info_, warning_
+from json_converter import get_json_data
 
 info_(text='Запуск файла')
 app = Flask(__name__)
@@ -9,7 +10,9 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def index() -> render_template:
     """Основная вкладка"""
-    return render_template('index.html')
+    # Получение данных о пользователях
+    users_data = get_json_data()
+    return render_template('index.html', users_data=users_data)
 
 @app.route('/send', methods=['POST', 'GET'])
 def send():

@@ -524,3 +524,265 @@
 19:25:00,547 custom.clog [[32mINFO[0m] dasdsa
 19:25:00,563 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "POST /send HTTP/1.1" 200 -
 19:25:00,650 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "GET /static/css/style.css HTTP/1.1" 200 -
+22:59:26,306 custom.clog [[32mINFO[0m] Запуск файла
+22:59:26,317 custom.clog [[32mINFO[0m] Файл прогружен
+22:59:26,318 custom.clog [[33mWARNING[0m] Запуск кода
+22:59:26,350 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+22:59:26,351 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+22:59:26,352 werkzeug [[32mINFO[0m]  * Restarting with stat
+22:59:26,666 custom.clog [[32mINFO[0m] Запуск файла
+22:59:26,668 custom.clog [[32mINFO[0m] Файл прогружен
+22:59:26,669 custom.clog [[33mWARNING[0m] Запуск кода
+22:59:26,681 werkzeug [[33mWARNING[0m]  * Debugger is active!
+22:59:26,699 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:01:33,555 custom.clog [[32mINFO[0m] Запуск файла
+23:01:33,557 custom.clog [[32mINFO[0m] Файл прогружен
+23:01:33,557 custom.clog [[33mWARNING[0m] Запуск кода
+23:01:33,581 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+23:01:33,581 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+23:01:33,583 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:01:33,846 custom.clog [[32mINFO[0m] Запуск файла
+23:01:33,848 custom.clog [[32mINFO[0m] Файл прогружен
+23:01:33,848 custom.clog [[33mWARNING[0m] Запуск кода
+23:01:33,860 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:01:33,873 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:02:00,4 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+23:02:00,80 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:00] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+23:02:00,88 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:00] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+23:02:00,184 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:00] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+23:02:00,316 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+23:02:38,909 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/json_converter.py', reloading
+23:02:39,3 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:02:39,321 custom.clog [[32mINFO[0m] Запуск файла
+23:02:39,323 custom.clog [[32mINFO[0m] Файл прогружен
+23:02:39,323 custom.clog [[33mWARNING[0m] Запуск кода
+23:02:39,335 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:02:39,341 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:02:40,390 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/json_converter.py', reloading
+23:02:40,429 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:02:40,734 custom.clog [[32mINFO[0m] Запуск файла
+23:02:40,736 custom.clog [[32mINFO[0m] Файл прогружен
+23:02:40,737 custom.clog [[33mWARNING[0m] Запуск кода
+23:02:40,749 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:02:40,755 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:02:48,889 custom.clog [[32mINFO[0m] Запуск файла
+23:02:48,892 custom.clog [[32mINFO[0m] Файл прогружен
+23:02:48,892 custom.clog [[33mWARNING[0m] Запуск кода
+23:02:48,907 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+23:02:48,907 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+23:02:48,908 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:02:49,207 custom.clog [[32mINFO[0m] Запуск файла
+23:02:49,209 custom.clog [[32mINFO[0m] Файл прогружен
+23:02:49,209 custom.clog [[33mWARNING[0m] Запуск кода
+23:02:49,222 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:02:49,228 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:02:53,948 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:53] "GET / HTTP/1.1" 200 -
+23:02:54,9 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:54] "GET /static/css/style.css HTTP/1.1" 200 -
+23:02:54,21 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:54] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:02:55,804 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:02:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+23:03:24,852 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:03:24,915 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:03:25,248 custom.clog [[32mINFO[0m] Запуск файла
+23:03:25,251 custom.clog [[32mINFO[0m] Файл прогружен
+23:03:25,252 custom.clog [[33mWARNING[0m] Запуск кода
+23:03:25,269 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:03:25,284 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:03:29,391 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:03:29,456 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:03:29,746 custom.clog [[32mINFO[0m] Запуск файла
+23:03:29,749 custom.clog [[32mINFO[0m] Файл прогружен
+23:03:29,749 custom.clog [[33mWARNING[0m] Запуск кода
+23:03:29,762 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:03:29,769 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:03:30,819 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:03:30,867 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:03:31,150 custom.clog [[32mINFO[0m] Запуск файла
+23:03:31,152 custom.clog [[32mINFO[0m] Файл прогружен
+23:03:31,153 custom.clog [[33mWARNING[0m] Запуск кода
+23:03:31,165 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:03:31,174 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:03:32,223 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:03:32,262 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:03:32,521 custom.clog [[32mINFO[0m] Запуск файла
+23:03:32,524 custom.clog [[32mINFO[0m] Файл прогружен
+23:03:32,524 custom.clog [[33mWARNING[0m] Запуск кода
+23:03:32,536 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:03:32,542 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:03:59,467 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:03:59] "GET / HTTP/1.1" 200 -
+23:03:59,525 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:03:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:03:59,532 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:03:59] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:04:42,759 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:04:42] "GET / HTTP/1.1" 200 -
+23:04:42,811 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:04:42] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:04:42,815 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:04:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:05:44,171 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+23:05:44,284 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+23:05:44,285 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+23:05:44,396 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+23:05:44,515 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+23:05:54,148 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:54] "GET / HTTP/1.1" 200 -
+23:05:54,203 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:54] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:05:54,206 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:05:59,395 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:59] "GET / HTTP/1.1" 200 -
+23:05:59,441 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:59] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:05:59,447 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:05:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:06:18,360 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:06:18,407 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:06:19,185 custom.clog [[32mINFO[0m] Запуск файла
+23:06:19,203 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:19,203 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:19,233 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:06:19,242 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:06:20,300 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:06:20,354 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:06:20,682 custom.clog [[32mINFO[0m] Запуск файла
+23:06:20,685 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:20,685 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:20,698 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:06:20,705 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:06:21,750 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:06:21,801 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:06:22,136 custom.clog [[32mINFO[0m] Запуск файла
+23:06:22,184 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:22,184 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:22,241 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:06:22,256 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:06:23,322 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:06:23,373 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:06:23,673 custom.clog [[32mINFO[0m] Запуск файла
+23:06:23,675 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:23,675 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:23,689 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:06:23,695 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:06:29,656 custom.clog [[32mINFO[0m] Запуск файла
+23:06:29,659 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:29,659 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:29,678 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+23:06:29,678 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+23:06:29,679 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:06:29,985 custom.clog [[32mINFO[0m] Запуск файла
+23:06:29,989 custom.clog [[32mINFO[0m] Файл прогружен
+23:06:29,990 custom.clog [[33mWARNING[0m] Запуск кода
+23:06:30,4 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:06:30,11 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:07:03,994 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:07:03] "GET / HTTP/1.1" 200 -
+23:07:04,62 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:07:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:07:04,63 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:07:04] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:07:16,802 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:07:16,843 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:07:17,442 custom.clog [[32mINFO[0m] Запуск файла
+23:07:17,445 custom.clog [[32mINFO[0m] Файл прогружен
+23:07:17,445 custom.clog [[33mWARNING[0m] Запуск кода
+23:07:17,549 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:07:17,556 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:07:30,808 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/json_converter.py', reloading
+23:07:30,848 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:07:31,106 custom.clog [[32mINFO[0m] Запуск файла
+23:07:31,108 custom.clog [[32mINFO[0m] Файл прогружен
+23:07:31,108 custom.clog [[33mWARNING[0m] Запуск кода
+23:07:31,121 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:07:31,127 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:07:32,172 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/json_converter.py', reloading
+23:07:32,265 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:08:06,733 custom.clog [[32mINFO[0m] Запуск файла
+23:08:06,736 custom.clog [[32mINFO[0m] Файл прогружен
+23:08:06,736 custom.clog [[33mWARNING[0m] Запуск кода
+23:08:06,754 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+23:08:06,754 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+23:08:06,755 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:08:07,32 custom.clog [[32mINFO[0m] Запуск файла
+23:08:07,34 custom.clog [[32mINFO[0m] Файл прогружен
+23:08:07,35 custom.clog [[33mWARNING[0m] Запуск кода
+23:08:07,47 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:08:07,53 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:08:08,160 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:08:08] "GET / HTTP/1.1" 200 -
+23:08:08,280 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:08:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:08:08,282 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:08:08] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:08:21,317 werkzeug [[32mINFO[0m]  * Detected change in '/Volumes/ADATA HV620S/Code/python_vscode/hackathon/main.py', reloading
+23:08:21,359 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:08:21,667 custom.clog [[32mINFO[0m] Запуск файла
+23:08:21,669 custom.clog [[32mINFO[0m] Файл прогружен
+23:08:21,669 custom.clog [[33mWARNING[0m] Запуск кода
+23:08:21,712 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:08:21,718 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+23:09:41,986 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:09:41] "GET / HTTP/1.1" 200 -
+23:09:42,41 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:09:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:09:42,48 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:09:42] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:19:16,590 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:19:16] "GET / HTTP/1.1" 200 -
+23:19:16,679 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:19:16] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:19:16,692 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:19:16] "GET /static/css/style.css HTTP/1.1" 200 -
+23:26:14,116 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:14] "GET / HTTP/1.1" 200 -
+23:26:14,183 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:14] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:26:14,186 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:14] "GET /static/css/style.css HTTP/1.1" 200 -
+23:26:16,575 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:16] "GET / HTTP/1.1" 200 -
+23:26:16,626 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:26:16,638 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:16] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:26:23,383 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:26:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:33:19,815 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:33:19] "GET / HTTP/1.1" 200 -
+23:33:19,907 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:33:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:33:19,912 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:33:19] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:34:14,849 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:34:14] "GET / HTTP/1.1" 200 -
+23:34:14,894 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:34:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:34:14,899 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:34:14] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:35:33,938 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:35:33] "GET / HTTP/1.1" 200 -
+23:35:33,983 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:35:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:35:34,1 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:35:34] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:36:16,794 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:36:16] "GET / HTTP/1.1" 200 -
+23:36:16,873 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:36:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:36:16,879 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:36:16] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:36:20,517 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:36:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:37:50,550 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:37:50] "GET / HTTP/1.1" 200 -
+23:37:50,666 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:37:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:37:50,675 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:37:50] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+23:38:26,72 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:38:26] "GET / HTTP/1.1" 200 -
+23:38:26,128 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:38:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:38:26,130 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:38:26] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:42:25,519 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:25] "GET / HTTP/1.1" 200 -
+23:42:25,578 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:25] "GET /static/css/style.css HTTP/1.1" 200 -
+23:42:25,600 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:25] "GET /static/javascript/func.js HTTP/1.1" 200 -
+23:42:41,648 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:41] "GET / HTTP/1.1" 200 -
+23:42:41,708 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+23:42:41,718 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 23:42:41] "GET /static/javascript/func.js HTTP/1.1" 200 -
+00:18:53,40 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:18:53] "GET / HTTP/1.1" 200 -
+00:18:53,103 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:18:53] "GET /static/css/style.css HTTP/1.1" 200 -
+00:18:53,113 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:18:53] "GET /static/javascript/func.js HTTP/1.1" 200 -
+00:19:08,980 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:19:08] "GET / HTTP/1.1" 200 -
+00:19:09,54 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:19:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:19:09,61 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:19:09] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:20:06,379 custom.clog [[32mINFO[0m] Запуск файла
+00:20:06,381 custom.clog [[32mINFO[0m] Файл прогружен
+00:20:06,381 custom.clog [[33mWARNING[0m] Запуск кода
+00:20:06,405 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+00:20:06,405 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+00:20:06,406 werkzeug [[32mINFO[0m]  * Restarting with stat
+00:20:06,680 custom.clog [[32mINFO[0m] Запуск файла
+00:20:06,683 custom.clog [[32mINFO[0m] Файл прогружен
+00:20:06,683 custom.clog [[33mWARNING[0m] Запуск кода
+00:20:06,696 werkzeug [[33mWARNING[0m]  * Debugger is active!
+00:20:06,709 werkzeug [[32mINFO[0m]  * Debugger PIN: 137-167-312
+00:20:09,962 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:09] "GET / HTTP/1.1" 200 -
+00:20:10,16 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:20:10,22 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:10] "GET /static/javascript/func.js HTTP/1.1" 200 -
+00:20:12,177 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:12] "GET / HTTP/1.1" 200 -
+00:20:12,271 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:20:12,311 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:12] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:20:45,739 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:45] "GET / HTTP/1.1" 200 -
+00:20:45,844 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:20:45,847 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:20:45] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:28:12,321 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:28:12] "GET / HTTP/1.1" 200 -
+00:28:12,481 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:28:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:28:12,500 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:28:12] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:31:22,439 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:31:22] "GET / HTTP/1.1" 200 -
+00:31:22,506 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:31:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:31:22,519 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:31:22] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:33:14,990 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:33:14] "GET / HTTP/1.1" 200 -
+00:33:15,53 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:33:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:33:15,62 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:33:15] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+00:37:57,838 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "GET / HTTP/1.1" 200 -
+00:37:57,892 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:37:57,897 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "GET /static/javascript/func.js HTTP/1.1" 200 -
