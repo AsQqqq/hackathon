@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--  css link -->
+    <!-- css link -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <!-- other -->
     <meta charset="UTF-8">
@@ -9,16 +9,19 @@
     <title>Document</title>
 </head>
     <body>
-        <form class="method" method="POST" action="/send">
-            <div class="body">
-                <input 
-                    class="name"
-                    name="name" 
-                    placeholder="Message"
-                />
-                <input class="send_btn" type="submit" value="Send" />
+        <main>
+            <div class="searchInfo">
+                <input type="text" id="elastic">
             </div>
-        </form>
+            <div class="listInfo">
+                <ul class="elastic">
+                    {% for i in users_data %}
+                    <li>{{ i.phone_number }}<br>{{ i.email }}<br>{{ i.id }}</li>
+                    {% endfor %}>
+                </ul>
+            </div>
+            <!-- вызов js -->
+            <script src="static/javascript/func.js"></script>
+        </main>
     </body>
-    <p>text! test</p>
 </html>

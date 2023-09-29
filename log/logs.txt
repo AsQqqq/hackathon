@@ -786,3 +786,6 @@
 00:37:57,838 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "GET / HTTP/1.1" 200 -
 00:37:57,892 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 00:37:57,897 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:37:57] "GET /static/javascript/func.js HTTP/1.1" 200 -
+00:41:34,259 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:41:34] "GET / HTTP/1.1" 200 -
+00:41:34,309 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:41:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+00:41:34,398 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 00:41:34] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
