@@ -1,0 +1,48 @@
+16:45:09,394 custom.clog [[32mINFO[0m] Запуск файла
+16:45:09,399 custom.clog [[32mINFO[0m] Файл прогружен
+16:45:09,399 custom.clog [[33mWARNING[0m] Запуск кода
+16:45:09,579 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://172.20.10.15:5000
+16:45:09,579 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:45:09,581 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:45:10,21 custom.clog [[32mINFO[0m] Запуск файла
+16:45:10,24 custom.clog [[32mINFO[0m] Файл прогружен
+16:45:10,24 custom.clog [[33mWARNING[0m] Запуск кода
+16:45:10,31 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:45:10,32 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+16:45:40,197 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+16:45:40,304 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:45:40,759 custom.clog [[32mINFO[0m] Запуск файла
+16:45:40,764 custom.clog [[32mINFO[0m] Файл прогружен
+16:45:40,764 custom.clog [[33mWARNING[0m] Запуск кода
+16:45:40,771 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:45:40,771 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+16:45:46,110 custom.clog [[32mINFO[0m] Запуск файла
+16:45:46,116 custom.clog [[32mINFO[0m] Файл прогружен
+16:45:46,116 custom.clog [[33mWARNING[0m] Запуск кода
+16:46:01,549 custom.clog [[32mINFO[0m] Запуск файла
+16:46:01,552 custom.clog [[32mINFO[0m] Файл прогружен
+16:46:01,552 custom.clog [[33mWARNING[0m] Запуск кода
+16:46:21,311 custom.clog [[32mINFO[0m] Запуск файла
+16:46:21,314 custom.clog [[32mINFO[0m] Файл прогружен
+16:46:21,315 custom.clog [[33mWARNING[0m] Запуск кода
+16:46:21,416 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://172.20.10.5:5000
+16:46:21,416 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:46:21,418 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:46:21,807 custom.clog [[32mINFO[0m] Запуск файла
+16:46:21,811 custom.clog [[32mINFO[0m] Файл прогружен
+16:46:21,811 custom.clog [[33mWARNING[0m] Запуск кода
+16:46:21,820 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:46:21,821 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+16:48:35,238 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:48:35,239 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+16:48:36,259 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+16:48:36,804 custom.clog [[32mINFO[0m] Запуск файла
+16:48:36,813 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:48:36,813 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+16:48:38,836 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+16:48:39,330 custom.clog [[32mINFO[0m] Запуск файла
+16:48:39,335 custom.clog [[33mWARNING[0m] Запуск кода
+16:48:39,347 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:48:39,348 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
