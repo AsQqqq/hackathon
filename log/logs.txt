@@ -46,3 +46,481 @@
 16:48:39,335 custom.clog [[33mWARNING[0m] Запуск кода
 16:48:39,347 werkzeug [[33mWARNING[0m]  * Debugger is active!
 16:48:39,348 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:46:04,536 custom.clog [[32mINFO[0m] Запуск файла
+17:46:04,539 custom.clog [[32mINFO[0m] Файл прогружен
+17:46:04,540 custom.clog [[33mWARNING[0m] Запуск кода
+17:46:04,709 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.129:5000
+17:46:04,710 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+17:46:04,712 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:46:05,17 custom.clog [[32mINFO[0m] Запуск файла
+17:46:05,20 custom.clog [[32mINFO[0m] Файл прогружен
+17:46:05,20 custom.clog [[33mWARNING[0m] Запуск кода
+17:46:05,26 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:46:05,27 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:46:10,754 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:46:10] "GET / HTTP/1.1" 200 -
+17:46:10,846 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:46:10] "GET /static/css/style.css HTTP/1.1" 200 -
+17:46:11,647 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:46:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:46:40,690 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:46:40] code 400, message Bad request version ('â\x98ð»\x05½Vë8/Ã](A\x9eÔó')
+17:46:40,690 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:46:40] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03AºOØE\\õ6Ð\x05Å¶XËJ¸\x99\x95M÷\x94\x9aË\x19]6\x1f\x17ÒNÐ÷ \x9bU¤|Á\x1d\x12H\x18\x1dâ\x98ð»\x05½Vë8/Ã](A\x9eÔó[0m" HTTPStatus.BAD_REQUEST -
+17:46:44,148 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:46:44] code 400, message Bad request version ('¡ß½R\x90?Gdu¡ó\x18\x7f\\ú\x08DJ\x93|N.ÿS\x15\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:46:44,149 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:46:44] code 400, message Bad request version ('7\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:46:44,149 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:46:44] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x82vß\x96\x16\x08'\x95>Þ\x95>¯\x08\x1d\x11,R%gÝ\x9e\x0e<\x06IéÒàÑTÂ ÜR1ÇÝå\x0c¡ß½R\x90?Gdu¡ó\x18\x7f\\ú\x08DJ\x93|N.ÿS\x15\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:46:44,149 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:46:44] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¼àë·$Ô\x09\x02I"¦ð\x13o\x1a¬7c\x7f\x03ÕEÎ\x0d\x1d\x96Çí\x9c8p\x97 \x16öá\x98¼\x90\x99\x9bä\x06¬\x9c¯\x1e8ä\x1b~ý\x00Õ\x1aèõ\x12¨o\\ø0 7\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:46:47,417 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:46:47] code 400, message Bad request version ('\x01¢z[m\x95\x8eåõàæ%û)}à\x1bnõ\x01\x12éÊÈ°\xadÙ¹®,\x01K\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:46:47,418 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:46:47] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03§¡Øá\x12(ùW\x10ë\x06?Ö.Tc;S\x87\x0c\x11×áþèý,àõ~ÕJ \x01¢z[m\x95\x8eåõàæ%û)}à\x1bnõ\x01\x12éÊÈ°­Ù¹®,\x01K\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:46:47,569 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:46:47] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+17:46:47,569 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:46:47] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[0m" HTTPStatus.BAD_REQUEST -
+17:46:59,969 custom.clog [[32mINFO[0m] Запуск файла
+17:46:59,972 custom.clog [[32mINFO[0m] Файл прогружен
+17:46:59,973 custom.clog [[33mWARNING[0m] Запуск кода
+17:47:00,57 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.255:5000
+17:47:00,57 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+17:47:00,58 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:47:00,407 custom.clog [[32mINFO[0m] Запуск файла
+17:47:00,410 custom.clog [[32mINFO[0m] Файл прогружен
+17:47:00,411 custom.clog [[33mWARNING[0m] Запуск кода
+17:47:00,419 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:47:00,419 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:47:44,640 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+17:47:44,773 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:47:45,259 custom.clog [[32mINFO[0m] Запуск файла
+17:47:45,264 custom.clog [[32mINFO[0m] Файл прогружен
+17:47:45,265 custom.clog [[33mWARNING[0m] Запуск кода
+17:47:45,274 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:47:45,274 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:48:00,3 custom.clog [[32mINFO[0m] Запуск файла
+17:48:00,7 custom.clog [[32mINFO[0m] Файл прогружен
+17:48:00,7 custom.clog [[33mWARNING[0m] Запуск кода
+17:50:53,829 custom.clog [[32mINFO[0m] Запуск файла
+17:50:53,832 custom.clog [[32mINFO[0m] Файл прогружен
+17:50:53,832 custom.clog [[33mWARNING[0m] Запуск кода
+17:50:53,879 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.129:5000
+17:50:53,879 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+17:50:53,881 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:50:54,216 custom.clog [[32mINFO[0m] Запуск файла
+17:50:54,219 custom.clog [[32mINFO[0m] Файл прогружен
+17:50:54,219 custom.clog [[33mWARNING[0m] Запуск кода
+17:50:54,226 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:50:54,286 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:51:39,872 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:51:39] "GET / HTTP/1.1" 200 -
+17:51:39,959 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+17:52:04,33 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:04] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03æ\x13'\x8cõÚC\x99ÇËm")
+17:52:04,33 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:04] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03æ\x13'\x8cõÚC\x99ÇËm[0m" HTTPStatus.BAD_REQUEST -
+17:52:06,783 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:06] code 400, message Bad request version ('Z\x86Û\x0f\x90\'+;\x17\x17Ð$\x05t\x12õy\x158\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:52:06,783 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:06] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Òý¶u\x966òêK\x1cH`\x01N,U4\x81\x97\x04\x10Ü\x00¹Táo\x9eã\x84\x9c# ,)ßTê \x12üGc«\x0b\x0cZ\x86Û\x0f\x90'+;\x17\x17Ð$\x05t\x12õy\x158\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:52:07,813 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:07] code 400, message Bad request version ('¤\x82\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:52:07,813 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:07] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x83>\x80byQ]ßVØ\x82ê\x89û\x82\x8bÇ\x9dí\x83Û¯¼¨\x07f\x16Ä>\x96\x99Þ Ý\x1b\x9bývÇ$\x03Y1³\x9d&!£.õ\x92\x7f\x02Ý\x8cHð÷]s7u\x0b¤\x82\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:52:08,490 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:08] code 400, message Bad request version ('xä7Æ$\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:52:08,490 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:08] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x85²`¸\x0f\x04\x9d\x93\x97¨£Tûcº¶÷-ð\x9d)IPAßN´ólS\x8f^ ß\x91ñ©¸¼Yì\x83+Î"\x1d\x80:ðç\x14\x04¡Ê\x13c¤\x83Ñ\x85xä7Æ$\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:52:09,660 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+17:52:09,725 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:52:33,303 custom.clog [[32mINFO[0m] Запуск файла
+17:52:33,309 custom.clog [[32mINFO[0m] Файл прогружен
+17:52:33,309 custom.clog [[33mWARNING[0m] Запуск кода
+17:52:33,337 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.129:2524
+17:52:33,338 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+17:52:33,339 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:52:33,726 custom.clog [[32mINFO[0m] Запуск файла
+17:52:33,729 custom.clog [[32mINFO[0m] Файл прогружен
+17:52:33,729 custom.clog [[33mWARNING[0m] Запуск кода
+17:52:33,735 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:52:33,736 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:52:34,911 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:52:34] "GET / HTTP/1.1" 200 -
+17:52:34,992 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:52:34] "GET /static/css/style.css HTTP/1.1" 200 -
+17:52:35,736 werkzeug [[32mINFO[0m] 192.168.0.129 - - [29/Sep/2023 17:52:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+17:52:46,641 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:46] code 400, message Bad request version ('m')
+17:52:46,642 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:46] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03.\x95A\x11\x9dX\x92U\x8d.¯\x01§_ª\x9f\x03¶\x14aÌ/\x0d\x17ó\x12ÉM\x9fþ\x97\x97 \x88\x1d^o\x0cdöKØ\x06µ¶]¼f\x05\x08¾Ò3ÿ.;REW m\x0c[0m" HTTPStatus.BAD_REQUEST -
+17:52:49,510 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03÷e´\x97\x02Ð\\Ýl^åÑ\x10')
+17:52:49,511 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:49] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03÷e´\x97\x02Ð\\Ýl^åÑ\x10\x1cØÝ\x07"&£Ñ\x9fÁ~S¯[0m" HTTPStatus.BAD_REQUEST -
+17:52:50,791 werkzeug [[31mERROR[0m] 192.168.0.137 - - [29/Sep/2023 17:52:50] code 400, message Bad request version ('B*z¯ÌÎg¥A\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+17:52:50,792 werkzeug [[32mINFO[0m] 192.168.0.137 - - [29/Sep/2023 17:52:50] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03æÒ\x83m\x0eûKæÜã­òL£¨\x09¯«\x99\x0dÖf\x966èP5\x1d\x02\x99>\x9c @\x12\x95\x02\x10\x0bV<\x18û¨\x9aæ\x891:é\x94-:\x10v\x0cB*z¯ÌÎg¥A\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+17:54:07,549 custom.clog [[32mINFO[0m] Запуск файла
+17:54:07,552 custom.clog [[32mINFO[0m] Файл прогружен
+17:54:07,552 custom.clog [[33mWARNING[0m] Запуск кода
+17:54:07,655 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.255:2524
+17:54:07,655 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+17:54:07,656 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:54:08,37 custom.clog [[32mINFO[0m] Запуск файла
+17:54:08,40 custom.clog [[32mINFO[0m] Файл прогружен
+17:54:08,40 custom.clog [[33mWARNING[0m] Запуск кода
+17:54:08,46 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:54:08,46 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:59:31,568 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+17:59:31,684 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:59:32,286 custom.clog [[32mINFO[0m] Запуск файла
+17:59:32,290 custom.clog [[32mINFO[0m] Файл прогружен
+17:59:32,290 custom.clog [[33mWARNING[0m] Запуск кода
+17:59:32,299 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:59:32,300 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+17:59:33,316 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+17:59:33,424 werkzeug [[32mINFO[0m]  * Restarting with stat
+17:59:33,890 custom.clog [[32mINFO[0m] Запуск файла
+17:59:33,893 custom.clog [[32mINFO[0m] Файл прогружен
+17:59:33,894 custom.clog [[33mWARNING[0m] Запуск кода
+17:59:33,899 werkzeug [[33mWARNING[0m]  * Debugger is active!
+17:59:33,899 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+18:02:50,486 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+18:02:50,601 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:03:21,763 custom.clog [[32mINFO[0m] Запуск файла
+18:03:21,766 custom.clog [[32mINFO[0m] Файл прогружен
+18:03:21,766 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:03,383 custom.clog [[32mINFO[0m] Запуск файла
+18:04:03,386 custom.clog [[32mINFO[0m] Файл прогружен
+18:04:03,386 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:07,259 custom.clog [[32mINFO[0m] Запуск файла
+18:04:07,269 custom.clog [[32mINFO[0m] Файл прогружен
+18:04:07,269 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:18,188 custom.clog [[32mINFO[0m] Запуск файла
+18:04:18,193 custom.clog [[32mINFO[0m] Файл прогружен
+18:04:18,193 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:27,197 custom.clog [[32mINFO[0m] Запуск файла
+18:04:27,202 custom.clog [[32mINFO[0m] Файл прогружен
+18:04:27,202 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:27,215 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:04:27,215 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:04:27,217 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:04:27,605 custom.clog [[32mINFO[0m] Запуск файла
+18:04:27,608 custom.clog [[32mINFO[0m] Файл прогружен
+18:04:27,608 custom.clog [[33mWARNING[0m] Запуск кода
+18:04:27,614 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:04:27,648 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+18:04:46,289 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:04:46] "GET / HTTP/1.1" 200 -
+18:04:46,391 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:04:46] "GET /static/css/style.css HTTP/1.1" 200 -
+18:04:47,189 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:04:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:06:01,734 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+18:06:01,854 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:06:02,412 custom.clog [[32mINFO[0m] Запуск файла
+18:06:02,416 custom.clog [[32mINFO[0m] Файл прогружен
+18:06:02,417 custom.clog [[33mWARNING[0m] Запуск кода
+18:06:02,428 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:06:02,430 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+18:06:23,407 custom.clog [[32mINFO[0m] Запуск файла
+18:06:23,410 custom.clog [[32mINFO[0m] Файл прогружен
+18:06:23,410 custom.clog [[33mWARNING[0m] Запуск кода
+18:06:23,418 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:06:23,418 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:06:23,419 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:06:23,687 custom.clog [[32mINFO[0m] Запуск файла
+18:06:23,690 custom.clog [[32mINFO[0m] Файл прогружен
+18:06:23,690 custom.clog [[33mWARNING[0m] Запуск кода
+18:06:23,695 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:06:23,696 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+18:06:27,583 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:06:27] "GET / HTTP/1.1" 200 -
+18:06:27,658 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:06:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:30:37,573 custom.clog [[32mINFO[0m] Запуск файла
+18:30:37,577 custom.clog [[32mINFO[0m] Файл прогружен
+18:30:37,577 custom.clog [[33mWARNING[0m] Запуск кода
+18:30:37,593 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:30:37,593 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:30:37,595 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:30:38,29 custom.clog [[32mINFO[0m] Запуск файла
+18:30:38,35 custom.clog [[32mINFO[0m] Файл прогружен
+18:30:38,35 custom.clog [[33mWARNING[0m] Запуск кода
+18:30:38,43 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:30:38,44 werkzeug [[32mINFO[0m]  * Debugger PIN: 120-903-051
+18:30:42,813 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:30:42] "GET / HTTP/1.1" 200 -
+18:30:42,921 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:30:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:38:05,703 custom.clog [[32mINFO[0m] Запуск файла
+18:38:05,712 custom.clog [[32mINFO[0m] Файл прогружен
+18:38:05,713 custom.clog [[33mWARNING[0m] Запуск кода
+18:38:05,729 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:38:05,730 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:38:05,736 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:38:06,291 custom.clog [[32mINFO[0m] Запуск файла
+18:38:06,296 custom.clog [[32mINFO[0m] Файл прогружен
+18:38:06,296 custom.clog [[33mWARNING[0m] Запуск кода
+18:38:06,305 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:38:06,544 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+18:38:30,119 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:38:30] "GET / HTTP/1.1" 200 -
+18:38:30,227 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:38:30,631 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:38:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:38:32,886 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:38:32] "[33mGET /register HTTP/1.1[0m" 404 -
+18:40:10,757 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:10] "GET / HTTP/1.1" 200 -
+18:40:10,813 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:40:13,17 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:13] "[33mGET /123123 HTTP/1.1[0m" 404 -
+18:40:43,901 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:43] "GET / HTTP/1.1" 200 -
+18:40:43,994 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:40:52,143 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:52] "GET / HTTP/1.1" 200 -
+18:40:52,233 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:40:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:41:04,388 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:41:04] "GET / HTTP/1.1" 200 -
+18:41:04,523 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:41:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:41:52,779 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+18:41:52,887 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:43:58,841 custom.clog [[32mINFO[0m] Запуск файла
+18:43:58,845 custom.clog [[32mINFO[0m] Файл прогружен
+18:43:58,845 custom.clog [[33mWARNING[0m] Запуск кода
+18:43:58,865 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:43:58,866 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:43:58,868 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:43:59,274 custom.clog [[32mINFO[0m] Запуск файла
+18:43:59,278 custom.clog [[32mINFO[0m] Файл прогружен
+18:43:59,279 custom.clog [[33mWARNING[0m] Запуск кода
+18:43:59,289 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:43:59,313 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+18:44:06,107 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:06] "[33mGET /123123 HTTP/1.1[0m" 404 -
+18:44:22,755 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:22] "GET / HTTP/1.1" 200 -
+18:44:22,863 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:44:26,597 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:26] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+18:44:26,666 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:26] "GET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18:44:26,674 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:26] "GET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+18:44:27,100 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:27] "GET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18:44:27,256 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:44:27] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:46:54,877 custom.clog [[32mINFO[0m] Запуск файла
+18:46:54,881 custom.clog [[32mINFO[0m] Файл прогружен
+18:46:54,882 custom.clog [[33mWARNING[0m] Запуск кода
+18:46:54,893 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+18:46:54,893 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:46:54,895 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:46:55,378 custom.clog [[32mINFO[0m] Запуск файла
+18:46:55,382 custom.clog [[32mINFO[0m] Файл прогружен
+18:46:55,382 custom.clog [[33mWARNING[0m] Запуск кода
+18:46:55,393 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:46:55,394 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+18:46:55,459 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:55] "GET / HTTP/1.1" 200 -
+18:46:55,568 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:46:58,908 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:58] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+18:46:58,986 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:58] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:46:58,989 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:58] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:46:59,401 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:59] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:46:59,579 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 18:46:59] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:01:23,479 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+19:01:23,614 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:01:24,140 custom.clog [[32mINFO[0m] Запуск файла
+19:01:24,146 custom.clog [[32mINFO[0m] Файл прогружен
+19:01:24,147 custom.clog [[33mWARNING[0m] Запуск кода
+19:01:24,192 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:01:24,196 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:01:24,210 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+19:01:24,325 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:01:25,734 custom.clog [[32mINFO[0m] Запуск файла
+19:01:25,741 custom.clog [[32mINFO[0m] Файл прогружен
+19:01:25,741 custom.clog [[33mWARNING[0m] Запуск кода
+19:01:25,756 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:01:25,757 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:01:25,759 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:01:26,241 custom.clog [[32mINFO[0m] Запуск файла
+19:01:26,246 custom.clog [[32mINFO[0m] Файл прогружен
+19:01:26,246 custom.clog [[33mWARNING[0m] Запуск кода
+19:01:26,255 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:01:26,255 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:01:29,987 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:29] "GET / HTTP/1.1" 200 -
+19:01:30,123 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:01:32,978 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:32] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+19:01:33,104 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:33] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+19:01:33,116 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:33] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+19:01:33,378 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:01:33] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:01:47,385 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+19:01:47,508 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:01:47,998 custom.clog [[32mINFO[0m] Запуск файла
+19:01:48,3 custom.clog [[32mINFO[0m] Файл прогружен
+19:01:48,3 custom.clog [[33mWARNING[0m] Запуск кода
+19:01:48,13 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:01:48,14 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:03:20,397 custom.clog [[32mINFO[0m] Запуск файла
+19:03:20,403 custom.clog [[32mINFO[0m] Файл прогружен
+19:03:20,403 custom.clog [[33mWARNING[0m] Запуск кода
+19:03:20,418 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:03:20,418 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:03:20,421 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:03:20,984 custom.clog [[32mINFO[0m] Запуск файла
+19:03:20,989 custom.clog [[32mINFO[0m] Файл прогружен
+19:03:20,990 custom.clog [[33mWARNING[0m] Запуск кода
+19:03:20,999 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:03:21,0 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:03:24,52 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:24] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+19:03:24,201 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+19:03:24,215 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+19:03:24,460 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:03:24,592 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:03:27,54 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:27] "GET / HTTP/1.1" 200 -
+19:03:27,118 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:03:31,439 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:31] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+19:03:31,517 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:31] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+19:03:31,524 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:31] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+19:03:31,804 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:03:31] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:03:36,113 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+19:03:36,210 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:03:36,671 custom.clog [[32mINFO[0m] Запуск файла
+19:03:36,676 custom.clog [[32mINFO[0m] Файл прогружен
+19:03:36,676 custom.clog [[33mWARNING[0m] Запуск кода
+19:03:36,685 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:03:36,686 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:04:49,581 custom.clog [[32mINFO[0m] Запуск файла
+19:04:49,587 custom.clog [[32mINFO[0m] Файл прогружен
+19:04:49,587 custom.clog [[33mWARNING[0m] Запуск кода
+19:04:49,602 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:04:49,602 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:04:49,604 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:04:50,204 custom.clog [[32mINFO[0m] Запуск файла
+19:04:50,210 custom.clog [[32mINFO[0m] Файл прогружен
+19:04:50,210 custom.clog [[33mWARNING[0m] Запуск кода
+19:04:50,220 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:04:50,222 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:04:52,795 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:52] "GET / HTTP/1.1" 200 -
+19:04:52,892 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:04:57,774 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:57] "[35m[1mGET /send HTTP/1.1[0m" 500 -
+19:04:57,889 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:57] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+19:04:57,905 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:57] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+19:04:58,174 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:04:58] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+19:06:35,754 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:06:35] "GET / HTTP/1.1" 200 -
+19:06:35,818 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:06:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:08:56,472 custom.clog [[32mINFO[0m] Запуск файла
+19:08:56,479 custom.clog [[32mINFO[0m] Файл прогружен
+19:08:56,479 custom.clog [[33mWARNING[0m] Запуск кода
+19:08:56,493 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:08:56,493 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:08:56,496 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:08:57,26 custom.clog [[32mINFO[0m] Запуск файла
+19:08:57,32 custom.clog [[32mINFO[0m] Файл прогружен
+19:08:57,32 custom.clog [[33mWARNING[0m] Запуск кода
+19:08:57,43 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:08:57,44 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:08:58,912 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:08:58] "GET / HTTP/1.1" 200 -
+19:08:58,981 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:08:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:09:03,294 custom.clog [[32mINFO[0m] Hello
+19:09:03,295 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:09:03] "POST /send HTTP/1.1" 200 -
+19:09:26,598 custom.clog [[32mINFO[0m] Запуск файла
+19:09:26,602 custom.clog [[32mINFO[0m] Файл прогружен
+19:09:26,602 custom.clog [[33mWARNING[0m] Запуск кода
+19:09:26,617 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:09:26,617 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:09:26,619 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:09:27,165 custom.clog [[32mINFO[0m] Запуск файла
+19:09:27,171 custom.clog [[32mINFO[0m] Файл прогружен
+19:09:27,172 custom.clog [[33mWARNING[0m] Запуск кода
+19:09:27,182 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:09:27,182 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:09:29,575 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:09:29] "GET / HTTP/1.1" 200 -
+19:09:29,663 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:09:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:09:33,864 custom.clog [[32mINFO[0m] Привет!
+19:09:33,866 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:09:33] "POST /send HTTP/1.1" 200 -
+19:09:33,943 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:09:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:10:10,838 custom.clog [[32mINFO[0m] Привет!
+19:10:10,844 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:10] "POST /send HTTP/1.1" 200 -
+19:10:10,920 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:10] "GET /static/css/style.css HTTP/1.1" 200 -
+19:10:16,292 custom.clog [[32mINFO[0m] Привет!
+19:10:16,293 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:16] "POST /send HTTP/1.1" 200 -
+19:10:16,335 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:16] "GET /static/css/style.css HTTP/1.1" 200 -
+19:10:23,969 custom.clog [[32mINFO[0m] Привет!
+19:10:23,970 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:23] "POST /send HTTP/1.1" 200 -
+19:10:24,10 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:10:24] "GET /static/css/style.css HTTP/1.1" 200 -
+19:12:57,526 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:12:57,528 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:12:57] "POST /send HTTP/1.1" 200 -
+19:12:57,754 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:12:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:13:12,143 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:13:12,144 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:13:12] "POST /send HTTP/1.1" 200 -
+19:13:12,232 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:13:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:15:13,448 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:15:13,486 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:13] "POST /send HTTP/1.1" 200 -
+19:15:13,566 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:13] "GET /static/css/style.css HTTP/1.1" 200 -
+19:15:47,929 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:15:47,930 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:47] "POST /send HTTP/1.1" 200 -
+19:15:47,998 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:47] "GET /static/css/style.css HTTP/1.1" 200 -
+19:15:57,923 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:15:57,924 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:57] "POST /send HTTP/1.1" 200 -
+19:15:57,991 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:15:57] "GET /static/css/style.css HTTP/1.1" 200 -
+19:16:48,456 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:16:48,458 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:16:48] "POST /send HTTP/1.1" 200 -
+19:16:48,537 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:16:48] "GET /static/css/style.css HTTP/1.1" 200 -
+19:17:09,566 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:17:09,568 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:17:09] "POST /send HTTP/1.1" 200 -
+19:17:09,617 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:17:09] "GET /static/css/style.css HTTP/1.1" 200 -
+19:18:01,119 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:18:01,123 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:01] "POST /send HTTP/1.1" 200 -
+19:18:01,176 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:01] "GET /static/css/style.css HTTP/1.1" 200 -
+19:18:13,174 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:18:13,176 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:13] "POST /send HTTP/1.1" 200 -
+19:18:13,246 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:13] "GET /static/css/style.css HTTP/1.1" 200 -
+19:18:57,990 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:18:57,991 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:57] "POST /send HTTP/1.1" 200 -
+19:18:58,58 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:18:58] "GET /static/css/style.css HTTP/1.1" 200 -
+19:19:23,117 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:19:23,118 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:23] "POST /send HTTP/1.1" 200 -
+19:19:23,169 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:23] "GET /static/css/style.css HTTP/1.1" 200 -
+19:19:43,935 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:19:43,936 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:43] "POST /send HTTP/1.1" 200 -
+19:19:43,995 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:43] "GET /static/css/style.css HTTP/1.1" 200 -
+19:19:48,803 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:19:48,805 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:48] "POST /send HTTP/1.1" 200 -
+19:19:48,883 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:19:48] "GET /static/css/style.css HTTP/1.1" 200 -
+19:20:35,200 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:20:35,202 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:20:35] "POST /send HTTP/1.1" 200 -
+19:20:35,270 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:20:35] "GET /static/css/style.css HTTP/1.1" 200 -
+19:20:58,989 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:20:58,990 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:20:58] "POST /send HTTP/1.1" 200 -
+19:20:59,77 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:20:59] "GET /static/css/style.css HTTP/1.1" 200 -
+19:21:42,329 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:21:42,331 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:42] "POST /send HTTP/1.1" 200 -
+19:21:42,390 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:42] "GET /static/css/style.css HTTP/1.1" 200 -
+19:21:52,407 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:21:52,408 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:52] "POST /send HTTP/1.1" 200 -
+19:21:52,474 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:52] "GET /static/css/style.css HTTP/1.1" 200 -
+19:21:57,901 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:21:57,902 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:57] "POST /send HTTP/1.1" 200 -
+19:21:57,939 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:21:57] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:07,319 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:07,320 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:07] "POST /send HTTP/1.1" 200 -
+19:22:07,391 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:07] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:11,996 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:12,0 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:12] "POST /send HTTP/1.1" 200 -
+19:22:12,64 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:12] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:21,297 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:21,298 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:21] "POST /send HTTP/1.1" 200 -
+19:22:21,386 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:21] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:26,211 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:26,212 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:26] "POST /send HTTP/1.1" 200 -
+19:22:26,272 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:26] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:44,549 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:44,550 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:44] "POST /send HTTP/1.1" 200 -
+19:22:44,588 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:44] "GET /static/css/style.css HTTP/1.1" 200 -
+19:22:54,160 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:22:54,209 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:54] "POST /send HTTP/1.1" 200 -
+19:22:54,255 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:22:54] "GET /static/css/style.css HTTP/1.1" 200 -
+19:23:02,246 custom.clog [[32mINFO[0m] phone message callback_url ) Authorization Bearer <token>
+19:23:02,249 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:02] "POST /send HTTP/1.1" 200 -
+19:23:02,294 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:23:06,575 custom.clog [[32mINFO[0m] asdas
+19:23:06,576 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:06] "POST /send HTTP/1.1" 200 -
+19:23:06,649 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:23:15,721 custom.clog [[32mINFO[0m] asdas
+19:23:15,722 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:15] "POST /send HTTP/1.1" 200 -
+19:23:15,781 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:23:26,372 custom.clog [[32mINFO[0m] asdsad
+19:23:26,373 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:26] "POST /send HTTP/1.1" 200 -
+19:23:26,445 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:23:30,94 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:30] "GET / HTTP/1.1" 200 -
+19:23:30,153 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:23:32,543 custom.clog [[32mINFO[0m] dasdsa
+19:23:32,544 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:32] "POST /send HTTP/1.1" 200 -
+19:23:32,652 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:23:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+19:24:58,512 custom.clog [[32mINFO[0m] Запуск файла
+19:24:58,515 custom.clog [[32mINFO[0m] Файл прогружен
+19:24:58,516 custom.clog [[33mWARNING[0m] Запуск кода
+19:24:58,532 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+19:24:58,532 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+19:24:58,534 werkzeug [[32mINFO[0m]  * Restarting with stat
+19:24:59,79 custom.clog [[32mINFO[0m] Запуск файла
+19:24:59,84 custom.clog [[32mINFO[0m] Файл прогружен
+19:24:59,85 custom.clog [[33mWARNING[0m] Запуск кода
+19:24:59,94 werkzeug [[33mWARNING[0m]  * Debugger is active!
+19:24:59,95 werkzeug [[32mINFO[0m]  * Debugger PIN: 899-184-241
+19:25:00,547 custom.clog [[32mINFO[0m] dasdsa
+19:25:00,563 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "POST /send HTTP/1.1" 200 -
+19:25:00,650 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:25:00] "GET /static/css/style.css HTTP/1.1" 200 -
