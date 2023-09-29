@@ -1,10 +1,16 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;  
+.hide {
+    display: none;
 }
 
-.method {
-    display: flex;
-    height: 100vh;
+#elastic {
+    display: block;
+    margin: 40px 0;
+}
+
+.elastic li{
+    transition: all ease 500ms;
+}
+
+.elastic li.hide {
+    display: none;
 }
