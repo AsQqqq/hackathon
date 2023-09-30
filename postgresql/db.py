@@ -9,6 +9,7 @@ class database:
     def __init__(self) -> None:
         """база данных"""
         try:
+            # Вход в базу данных
             self.database_name = 'hackathon'
             self.user_name = 'hackathon'
             self.host = 'localhost'
@@ -26,13 +27,10 @@ class database:
             self.create_table()
         except (Exception, Error) as error:
             print("Error while connecting to PostgreSQL", error)
-        finally:
-            if (self.connection):
-                self.cursor.close()
-                self.connection.close()
-                print("PostgreSQL connection is closed")
-    
+            exit()
+
     def create_table(self) -> None:
+        """Создание таблицы"""
         self.cursor = self.connection.cursor()
         self.cursor.execute("""
             CREATE TABLE IF NOT EXISTS users (
@@ -44,26 +42,38 @@ class database:
         """)
         self.connection.commit()
     
-    def add_users(id: str, phone_number: int, email: str) -> None:
-        pass
+    def add_users(self, id: str, email: str, phone_number: str) -> None:
+        """Добовление пользователей в таблицу"""
+        self.cursor = self.connection.cursor()
+        self.cursor.execute("""INSERT INTO users (id, email, phone_number) VALUES (%s, %s, %s)""", 
+                            (str(id), email, phone_number))
+        self.connection.commit()
 
     def system_add_user(self, users: int) -> None:
-        """Добовление пользователей в базу данных(рандомных)"""
+        """Генерация рандомных пользователей"""
         prs = Person('ru')
-
         for _ in range(int(users)):
             id = gid()
-            phone_number = prs.phone_number()
-            email = prs.email()
-            
-            print("\n\n")
-            print(id)
-            print(phone_number.replace('-', ' '))
-            print(email)
-            print("\n\n")
+            email: str = prs.email()
+            phone_number: str = prs.phone_number()
+            phone_number: str = phone_number.replace('-', ' ')
+            self.add_users(id=id, email=email, phone_number=phone_number)
+    
+    def select_all_users(self) -> list:
+        """Экспорт списка всех пользователей"""
+        self.cursor = self.connection.cursor()
+        self.cursor.execute("""
+            SELECT id, email, phone_number FROM users
+        """)
+        result = []
+        for i in self.cursor.fetchall():
+            user_dict = {'phone_number': i[2]}
+            result.append(user_dict)
+        return result
+        
             
 
 
 if __name__ == "__main__":
-    database().system_add_user(users=100)
-            
+    # database().system_add_user(users=900)
+    print(database().select_all_users())

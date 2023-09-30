@@ -1,10 +1,57 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;  
+.hide {
+    display: none;
 }
 
-.method {
+#elastic {
     display: flex;
-    height: 100vh;
+    justify-content: center;
+}
+
+.elastic li{
+    transition: all ease 500ms;
+}
+
+.elastic li.hide {
+    display: none;
+}
+
+.userElement {
+    list-style-type: none;
+}
+
+body {
+    background-image: url(../assets/background-image-city.jpg);
+}
+
+.listInfo {
+    display: flex;
+    justify-content: center;
+    align-content: right;
+    background-image: url(../assets/group-people-container.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: visible;
+    height: 898px;
+}
+
+.searchInfo {
+    display: flex;
+    justify-content: center;
+}
+
+#elastic {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 400px;
+}
+
+.additionalBtns {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.elastic {
+    margin-top: 50px;
 }
