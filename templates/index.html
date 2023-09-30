@@ -13,14 +13,15 @@
             <div class="additionalBtns">
                 <input type="submit" value="Дополнительно" id="addBtn">
                 <input type="text" id="elastic">
-                <input type="submit" value="Продолжить" id="ctnBtn">
+                <form class="method" action="/next">
+                    <input name="nextbtn" type="submit" value="Продолжить" id="ctnBtn">
+                </form>
             </div>
-
             <div class="listInfo">
                 <ol class="elastic">
                     {% for i in users_data %}
-                    <li class="userElement">{{ i.phone_number }}<input type="submit" value="+"></li>
-                    {% endfor %}>
+                    <li class="userElement">{{ i.phone_number }}<input type="submit" value="+" onclick="sendPhoneNumber('{{ i.phone_number }}')">
+                    {% endfor %}
                 </ol>
             </div>
             <!-- вызов js -->

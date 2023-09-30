@@ -17,3 +17,23 @@ document.querySelector('#elastic').oninput = function(){
         }
     )};
 }
+
+function sendPhoneNumber(phone_number) {
+    fetch('/phone-number', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ 'phone_number': phone_number })
+    })
+    .then(response => {
+      if (response.ok) {
+        console.log('Номер телефона успешно отправлен на сервер');
+      } else {
+        console.log('Произошла ошибка при отправке номера телефона');
+      }
+    })
+    .catch(error => {
+      console.log('Произошла ошибка при отправке номера телефона:', error);
+    });
+}
