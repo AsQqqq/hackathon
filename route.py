@@ -35,8 +35,9 @@ def index() -> render_template:
     data = datab().select_all_users()
     return render_template('index.html', users_data=data)
 
+
 @app.route('/phone-number', methods=['POST'])
-def handle_phone_number():
+def handle_phone_number() -> str:
     phone_number = request.json['phone_number']
 
     if phone_number in list_number:
@@ -99,6 +100,18 @@ def send_message_all_user(list_message, list_number):
             check_responce(response_json=response_json)
             sleep(0.15)
 
+    # return render_template('send.html')
+
+@app.route('/add_message', methods=['GET'])
+def add_message() -> render_template:
+    """Отправка сообщений"""
+    return render_template('add_message.html')
+
+@app.route('/history', methods=['GET'])
+def history() -> render_template:
+    """История"""
+    return render_template('history.html')
+
 
 @app.route('/send', methods=['POST', 'GET'])
 def send() -> redirect:
@@ -119,6 +132,14 @@ def send() -> redirect:
     return redirect('http://localhost:3040')
 
 
+
+# @app.route('/number', methods=['POST', 'GET'])
+# def number():
+#     num = request.form.get('phone_number')
+#     print(num)
+#     # items = []
+#     # items.append(num)
+#     # print(items)
 
 def check_responce(response_json) -> None:
     try:

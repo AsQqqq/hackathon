@@ -71,5 +71,5 @@ class database:
 
 
 if __name__ == "__main__":
-    # database().system_add_user(users=900)
-    print(database().select_all_users())
+    database().system_add_user(users=100)
+    # print(database().select_all_users())
