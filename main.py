@@ -25,4 +25,4 @@ info_(text='Файл прогружен')
 if __name__ == "__main__":
     "Запуск кода"
     warning_(text='Запуск кода')
-    app.run(debug=True, host="localhost", port="3030")
+    app.run(debug=True, host="172.20.10.2", port="3030")

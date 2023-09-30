@@ -3,8 +3,8 @@
 }
 
 #elastic {
-    display: block;
-    margin: 40px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .elastic li{
@@ -13,4 +13,45 @@
 
 .elastic li.hide {
     display: none;
+}
+
+.userElement {
+    list-style-type: none;
+}
+
+body {
+    background-image: url(../assets/background-image-city.jpg);
+}
+
+.listInfo {
+    display: flex;
+    justify-content: center;
+    align-content: right;
+    background-image: url(../assets/group-people-container.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: auto;
+    height: 898px;
+}
+
+.searchInfo {
+    display: flex;
+    justify-content: center;
+}
+
+#elastic {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 400px;
+}
+
+.additionalBtns {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.elastic {
+    margin-top: 50px;
 }

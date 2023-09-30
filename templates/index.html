@@ -10,15 +10,18 @@
 </head>
     <body>
         <main>
-            <div class="searchInfo">
+            <div class="additionalBtns">
+                <input type="submit" value="Дополнительно" id="addBtn">
                 <input type="text" id="elastic">
+                <input type="submit" value="Продолжить" id="ctnBtn">
             </div>
+
             <div class="listInfo">
-                <ul class="elastic">
+                <ol class="elastic">
                     {% for i in users_data %}
-                    <li>{{ i.phone_number }}<br>{{ i.email }}<br>{{ i.id }}</li>
+                    <li class="userElement">{{ i.phone_number }}<br>{{ i.email }}<input type="submit" value="+"><br>{{ i.id }}</li>
                     {% endfor %}>
-                </ul>
+                </ol>
             </div>
             <!-- вызов js -->
             <script src="static/javascript/func.js"></script>
