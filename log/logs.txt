@@ -875,3 +875,23 @@
 11:32:36,318 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "[32mPOST /send HTTP/1.1[0m" 302 -
 11:32:36,338 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "GET / HTTP/1.1" 200 -
 11:32:36,408 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+12:26:50,979 custom.clog [[33mWARNING[0m] Upload route files
+12:26:50,985 custom.clog [[32mINFO[0m] Files "route" upload
+12:26:50,998 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+12:26:50,998 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+12:26:51,0 werkzeug [[32mINFO[0m]  * Restarting with stat
+12:26:51,696 custom.clog [[33mWARNING[0m] Upload route files
+12:26:51,696 custom.clog [[32mINFO[0m] Files "route" upload
+12:26:51,706 werkzeug [[33mWARNING[0m]  * Debugger is active!
+12:26:51,707 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+12:26:54,293 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:26:54] "GET / HTTP/1.1" 200 -
+12:26:54,430 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:26:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+12:26:57,134 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+12:27:11,467 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:11] "GET / HTTP/1.1" 200 -
+12:27:11,512 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+12:27:11,824 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:11] "GET / HTTP/1.1" 200 -
+12:27:11,908 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+12:27:11,948 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:11] "GET / HTTP/1.1" 200 -
+12:27:12,260 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 12:27:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+12:27:13,785 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
