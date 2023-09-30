@@ -1,1 +1,0 @@
-from .clog import info_, warning_, error_
