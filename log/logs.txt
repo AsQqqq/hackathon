@@ -6615,3 +6615,42 @@
 22:50:33,744 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:33] "GET / HTTP/1.1" 200 -
 22:50:33,794 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 22:50:33,942 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:33] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+01:53:34,963 custom.clog [[32mINFO[0m] Файл "route" прогрузился
+01:53:34,970 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+01:53:34,970 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+01:53:34,971 werkzeug [[32mINFO[0m]  * Restarting with stat
+01:53:35,249 custom.clog [[32mINFO[0m] Файл "route" прогрузился
+01:53:35,253 werkzeug [[33mWARNING[0m]  * Debugger is active!
+01:53:35,253 werkzeug [[32mINFO[0m]  * Debugger PIN: 580-113-324
+01:53:39,30 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:39] "GET / HTTP/1.1" 200 -
+01:53:39,68 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+01:53:39,180 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:39] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+01:53:39,194 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:39] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+01:53:39,195 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:39] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+01:53:41,314 custom.clog [[32mINFO[0m] +7 (999) 039 32 10
+01:53:41,314 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:41] "POST /phone-number HTTP/1.1" 200 -
+01:53:41,916 custom.clog [[31mERROR[0m] +7 (999) 039 32 10
+01:53:41,916 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:41] "POST /phone-number HTTP/1.1" 200 -
+01:53:42,389 custom.clog [[32mINFO[0m] +7 (999) 039 32 10
+01:53:42,390 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:42] "POST /phone-number HTTP/1.1" 200 -
+01:53:42,821 custom.clog [[31mERROR[0m] +7 (999) 039 32 10
+01:53:42,822 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:42] "POST /phone-number HTTP/1.1" 200 -
+01:53:45,999 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:45] "[32mGET /next?nextbtn=Продолжить HTTP/1.1[0m" 302 -
+01:53:46,31 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:46] "GET / HTTP/1.1" 200 -
+01:53:46,70 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+01:53:46,186 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:46] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+01:53:46,199 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:46] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+01:53:46,200 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:46] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+01:53:48,925 custom.clog [[32mINFO[0m] +7 (929) 832 73 22
+01:53:48,926 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:48] "POST /phone-number HTTP/1.1" 200 -
+01:53:49,257 custom.clog [[32mINFO[0m] +7 (922) 750 75 38
+01:53:49,257 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:49] "POST /phone-number HTTP/1.1" 200 -
+01:53:49,602 custom.clog [[32mINFO[0m] +7 (999) 755 37 35
+01:53:49,603 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:49] "POST /phone-number HTTP/1.1" 200 -
+01:53:51,375 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "[32mGET /next?nextbtn=Продолжить HTTP/1.1[0m" 302 -
+01:53:51,410 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "GET / HTTP/1.1" 200 -
+01:53:51,454 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+01:53:51,598 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+01:53:51,609 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+01:53:51,729 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 01:53:51] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
