@@ -14,9 +14,15 @@ def index() -> render_template:
     # return render_template('send.html')
 
 @app.route('/add_message', methods=['GET'])
-def hgfg() -> render_template:
-    """Основная вкладка"""
+def add_message() -> render_template:
+    """Отправка сообщений"""
     return render_template('add_message.html')
+
+@app.route('/history', methods=['GET'])
+def history() -> render_template:
+    """История"""
+    return render_template('history.html')
+
 
 @app.route('/send', methods=['POST', 'GET'])
 def send():

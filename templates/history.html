@@ -11,30 +11,26 @@
         <!-- other -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Add message</title>
+        <title>History</title>
     </head>
-
     <body>
-        <div class="parent">
-            <div class="backPanel">
-                <input type="submit" value="Вернуться" id="backBtn">
+        <div class="historyParent">
+            <div class="backBtnFromHistory">
+                <input type="submit" value="Вернуться" id="backBtnFrmHstry">
             </div>
-            <div class="msgInputDivParent">
-                <span class="border rounded-3" id="userInfo">
-                    <p id="numberUser">Номер пользователя!</p>
+            <div class="viewHistory">
+                <span class="border rounded-3"  id="targetHistory">
+                    <p id="numberUserHistory">Номер пользователя!</p>
                 </span>
-                <span class="border rounded-3" id="msgInputDiv">
+                <span class="border rounded-3" id="viewTargetHistory">
                     <ul>
-                        <li id="messageWait">Здесь пока нет сообщений...</li>
+                        <li>Здесь пока ничего нет...</li>
                     </ul>
                 </span>
-                <input type="text" id="msgText">
             </div>
-            <div class="functionalPanel">
-                <input type="submit" value="История" id="historyBtn">
-                <input type="submit" value="Отправить сообщение" id="sendBtn">
+            <div class="logoView">
+                <img src="/static/assets/logo.png">
             </div>
         </div>
     </body>
-
 </html>

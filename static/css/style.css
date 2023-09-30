@@ -38,12 +38,35 @@ body {
 .parent {
     display: flex;
     justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .functionalPanel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.msgInputDivParent {
+    display: flex;
+    flex-direction: column;
+}
+
+.historyParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewHistory {
+    display: flex;
+    flex-direction: column;
+}
+
+#backBtnFrmHstry {
+    background-color: #e08860;
+    color: #efefef;
 }
 
 #elastic {
@@ -79,9 +102,12 @@ body {
 
 #msgInputDiv {
     display: flex;
-    height: 550px;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 520px;
     overflow-y: scroll;
     margin-top: 2%;
+    background-color: #d0d0d0;
 }
 
 #historyBtn {
@@ -97,4 +123,21 @@ body {
 #sendBtn {
     background-color: #d24a43;
     color: #ffffff;
+}
+
+#userInfo {
+    background-color: #847567;
+    color: #efefef
+}
+
+#numberUser {
+    text-align: center;
+}
+
+#messageWait {
+    list-style-type: none;
+}
+
+#msgText {
+    background-color: #dcdcdc;
 }
