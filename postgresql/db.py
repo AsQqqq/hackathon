@@ -20,10 +20,6 @@ class database:
                     host=self.host,
                     database=self.database_name
             )
-            self.cursor = self.connection.cursor()
-            self.cursor.execute("SELECT version();")
-            record = self.cursor.fetchone()
-            print("You are connected to - ", record, "\n")
             self.create_table()
         except (Exception, Error) as error:
             print("Error while connecting to PostgreSQL", error)

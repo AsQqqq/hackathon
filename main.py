@@ -5,4 +5,4 @@ if __name__ == "__main__":
     "Starting code"
     if upload_route():
         info_(text='Files "route" upload')
-    app.run(debug=True, host="localhost", port="3030")
+    app.run(debug=True, host="localhost", port="3040")

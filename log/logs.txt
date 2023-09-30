@@ -2121,3 +2121,112 @@
 16:00:45,226 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:00:45] "[32mPOST /send HTTP/1.1[0m" 302 -
 16:00:45,297 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:00:45] "GET / HTTP/1.1" 200 -
 16:00:45,376 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:00:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:16:34,773 custom.clog [[33mWARNING[0m] Upload route files
+16:16:34,773 custom.clog [[32mINFO[0m] Files "route" upload
+16:16:34,784 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+16:16:34,784 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:16:34,786 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:16:35,443 custom.clog [[33mWARNING[0m] Upload route files
+16:16:35,444 custom.clog [[32mINFO[0m] Files "route" upload
+16:16:35,450 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:16:35,451 werkzeug [[32mINFO[0m]  * Debugger PIN: 803-146-699
+16:16:53,838 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:16:53] "GET / HTTP/1.1" 200 -
+16:16:53,975 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:16:53] "GET /static/css/style.css HTTP/1.1" 200 -
+16:16:54,571 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:16:54] "GET /static/assets/background-image-city.jpg HTTP/1.1" 200 -
+16:16:54,842 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:16:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+16:17:45,506 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:17:45] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:17:45,553 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:17:45] "GET / HTTP/1.1" 200 -
+16:17:45,655 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:17:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:17:45,950 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:17:45] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+16:20:01,301 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:01,367 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:20:01,370 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:01,418 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/d379818b-9262-4002-acf9-6ea2a0f4590e HTTP/1.1" 200 None
+16:20:01,419 custom.clog [[32mINFO[0m] hello, 89515009197, d379818b-9262-4002-acf9-6ea2a0f4590e
+16:20:01,420 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:01] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:20:01,464 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:01] "GET / HTTP/1.1" 200 -
+16:20:01,546 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:20:01,866 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:01] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+16:20:20,58 custom.clog [[33mWARNING[0m] Upload route files
+16:20:20,58 custom.clog [[32mINFO[0m] Files "route" upload
+16:20:20,65 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+16:20:20,65 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:20:20,66 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:20:20,669 custom.clog [[33mWARNING[0m] Upload route files
+16:20:20,669 custom.clog [[32mINFO[0m] Files "route" upload
+16:20:20,675 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:20:20,676 werkzeug [[32mINFO[0m]  * Debugger PIN: 803-146-699
+16:20:22,256 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:22] "GET / HTTP/1.1" 200 -
+16:20:22,319 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:20:25,625 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:25,708 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:20:25,711 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:25,796 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/221898af-218b-4370-a8ef-ff109e14c039 HTTP/1.1" 200 None
+16:20:25,797 custom.clog [[32mINFO[0m] 1, 89515009197, 221898af-218b-4370-a8ef-ff109e14c039
+16:20:25,798 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:25] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:20:25,848 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:25] "GET / HTTP/1.1" 200 -
+16:20:25,952 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:20:34,558 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:34,605 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 500 None
+16:20:34,615 custom.clog [[31mERROR[0m] Something went wrong. Try again later.
+16:20:34,616 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:34] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:20:34,659 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:34] "GET / HTTP/1.1" 200 -
+16:20:34,731 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:20:47,836 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:47,897 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 500 None
+16:20:47,903 custom.clog [[31mERROR[0m] Something went wrong. Try again later.
+16:20:47,904 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:47] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:20:47,946 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:47] "GET / HTTP/1.1" 200 -
+16:20:48,42 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:20:51,402 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:51,489 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:20:51,497 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:20:51,561 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/802eebe5-5242-4e53-a19f-0f5c380fac7b HTTP/1.1" 200 None
+16:20:51,561 custom.clog [[31mERROR[0m] 1, 89515009197, 802eebe5-5242-4e53-a19f-0f5c380fac7b
+16:20:51,562 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:51] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:20:51,606 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:51] "GET / HTTP/1.1" 200 -
+16:20:51,740 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:20:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:24:30,556 custom.clog [[33mWARNING[0m] Upload route files
+16:24:30,556 custom.clog [[32mINFO[0m] Files "route" upload
+16:24:30,567 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+16:24:30,567 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:24:30,569 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:24:31,109 custom.clog [[33mWARNING[0m] Upload route files
+16:24:31,109 custom.clog [[32mINFO[0m] Files "route" upload
+16:24:31,115 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:24:31,115 werkzeug [[32mINFO[0m]  * Debugger PIN: 803-146-699
+16:24:32,677 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:32] "GET / HTTP/1.1" 200 -
+16:24:32,826 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:24:34,712 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:34,872 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:24:34,875 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:34,976 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/657a60d3-1203-4e59-9bf4-97aab0e6cd5a HTTP/1.1" 200 None
+16:24:34,976 custom.clog [[31mERROR[0m] 1, 89515009197, 657a60d3-1203-4e59-9bf4-97aab0e6cd5a
+16:24:34,978 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:34] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:24:35,28 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:35] "GET / HTTP/1.1" 200 -
+16:24:35,115 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:24:36,965 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:37,204 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:24:37,207 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:37,305 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/23545494-179d-497b-aedd-5bc1838bc76c HTTP/1.1" 200 None
+16:24:37,305 custom.clog [[31mERROR[0m] 2, 89515009197, 23545494-179d-497b-aedd-5bc1838bc76c
+16:24:37,306 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:37] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:24:37,347 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:37] "GET / HTTP/1.1" 200 -
+16:24:37,400 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:24:38,732 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:38,868 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 500 None
+16:24:38,869 custom.clog [[31mERROR[0m] Something went wrong. Try again later.
+16:24:38,870 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:38] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:24:38,983 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:38] "GET / HTTP/1.1" 200 -
+16:24:39,131 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:24:40,637 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:40,787 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+16:24:40,790 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+16:24:40,853 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/a047f9e8-92a4-4ffd-bd48-d3a4bea29df9 HTTP/1.1" 200 None
+16:24:40,856 custom.clog [[32mINFO[0m] 4, 89515009197, a047f9e8-92a4-4ffd-bd48-d3a4bea29df9
+16:24:40,857 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "[32mPOST /send HTTP/1.1[0m" 302 -
+16:24:40,900 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "GET / HTTP/1.1" 200 -
+16:24:40,955 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
