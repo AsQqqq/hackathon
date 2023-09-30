@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--  css link -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- other -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <form class="method" method="POST" action="/send">
+            <div class="body">
+                <input 
+                    name="message"
+                    placeholder="Message"/>
+                <input class="send_btn" type="submit" value="Send" />
+            </div>
+        </form>
+        <form class="method" method="POST" action="/send_all">
+            <div class="body">
+                <input 
+                    name="message"
+                    placeholder="Message"/>
+                <input class="send_btn" type="submit" value="Send all" />
+            </div>
+        </form>
+        <form class="method" method="POST" action="/send_all_users">
+            <div class="body">
+                <input class="send_btn" type="submit" value="Send all users" />
+            </div>
+        </form>
+    </body>
+</html>
