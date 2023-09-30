@@ -599,3 +599,279 @@
 19:50:22,577 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:50:22] "GET / HTTP/1.1" 200 -
 19:50:22,657 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 19:50:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 20:36:23,870 werkzeug [[32mINFO[0m] 127.0.0.1 - - [29/Sep/2023 20:36:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10:24:38,511 custom.clog [[33mWARNING[0m] Upload route files
+10:24:38,512 custom.clog [[32mINFO[0m] Files "route" upload
+10:24:38,525 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+10:24:38,525 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+10:24:38,527 werkzeug [[32mINFO[0m]  * Restarting with stat
+10:24:39,32 custom.clog [[33mWARNING[0m] Upload route files
+10:24:39,32 custom.clog [[32mINFO[0m] Files "route" upload
+10:24:39,40 werkzeug [[33mWARNING[0m]  * Debugger is active!
+10:24:39,235 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+10:24:44,79 custom.clog [[32mINFO[0m] Hello 
+10:24:44,100 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 10:24:44] "[35m[1mPOST /send HTTP/1.1[0m" 500 -
+10:24:44,440 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 10:24:44] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+10:24:44,441 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 10:24:44] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+10:24:45,233 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 10:24:45] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+10:24:45,513 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 10:24:45] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+10:25:17,476 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+10:25:17,614 werkzeug [[32mINFO[0m]  * Restarting with stat
+10:25:18,369 custom.clog [[33mWARNING[0m] Upload route files
+10:25:18,369 custom.clog [[32mINFO[0m] Files "route" upload
+10:25:18,378 werkzeug [[33mWARNING[0m]  * Debugger is active!
+10:25:18,379 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+10:25:19,404 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+10:25:19,562 werkzeug [[32mINFO[0m]  * Restarting with stat
+10:25:20,256 custom.clog [[33mWARNING[0m] Upload route files
+10:25:20,257 custom.clog [[32mINFO[0m] Files "route" upload
+10:25:20,267 werkzeug [[33mWARNING[0m]  * Debugger is active!
+10:25:20,267 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+10:25:22,299 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+10:25:22,433 werkzeug [[32mINFO[0m]  * Restarting with stat
+10:25:23,127 custom.clog [[33mWARNING[0m] Upload route files
+10:25:23,127 custom.clog [[32mINFO[0m] Files "route" upload
+10:25:23,134 werkzeug [[33mWARNING[0m]  * Debugger is active!
+10:25:23,134 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+10:25:29,195 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/main.py', reloading
+10:25:29,336 werkzeug [[32mINFO[0m]  * Restarting with stat
+10:29:35,422 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:29:55,323 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST / HTTP/1.1" 404 0
+10:29:55,325 custom.clog [[33mWARNING[0m] <Response [404]>
+10:31:04,769 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:31:05,212 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST / HTTP/1.1" 404 0
+10:31:05,213 custom.clog [[33mWARNING[0m] <Response [404]>
+10:31:35,637 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:31:42,319 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST / HTTP/1.1" 404 0
+10:31:42,319 custom.clog [[33mWARNING[0m] <Response [404]>
+10:33:51,469 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:80
+10:35:50,922 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:80
+10:35:59,901 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:37:38,560 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:38:28,274 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:40:34,455 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:41:12,852 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:41:13,34 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 401 0
+10:41:13,34 custom.clog [[33mWARNING[0m] <Response [401]>
+10:42:41,761 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:42:41,895 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 401 0
+10:42:41,896 custom.clog [[33mWARNING[0m] <Response [401]>
+10:43:43,330 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:43:43,374 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 401 0
+10:43:43,374 custom.clog [[33mWARNING[0m] <Response [401]>
+10:44:04,19 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:44:04,172 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 401 0
+10:44:04,173 custom.clog [[33mWARNING[0m] <Response [401]>
+10:45:05,47 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:45:05,144 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 404 None
+10:45:05,145 custom.clog [[33mWARNING[0m] <Response [404]>
+10:45:35,62 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:45:35,109 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 404 None
+10:45:35,110 custom.clog [[33mWARNING[0m] <Response [404]>
+10:45:55,250 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:45:55,394 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 400 0
+10:45:55,395 custom.clog [[33mWARNING[0m] <Response [400]>
+10:46:46,464 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:46:47,590 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 404 None
+10:46:47,657 custom.clog [[33mWARNING[0m] <Response [404]>
+10:47:50,942 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:47:51,29 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/c3d2a624-d7b6-4e17-bde4-fd10baf7f73b HTTP/1.1" 404 None
+10:47:51,30 custom.clog [[33mWARNING[0m] <Response [404]>
+10:48:26,494 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:48:26,611 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/13cc0ac2-8748-43e1-93e2-65f7692925f9 HTTP/1.1" 404 None
+10:48:26,612 custom.clog [[33mWARNING[0m] <Response [404]>
+10:57:11,806 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:57:12,372 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 400 None
+10:57:12,372 custom.clog [[33mWARNING[0m] <Response [400]>
+10:57:52,855 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+10:57:53,249 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 400 None
+10:57:53,339 custom.clog [[33mWARNING[0m] <Response [400]>
+11:01:01,187 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:01:01,955 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 400 None
+11:01:01,956 custom.clog [[33mWARNING[0m] <Response [400]>
+11:03:12,853 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:03:13,42 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 400 None
+11:03:13,42 custom.clog [[33mWARNING[0m] {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-61100f8e6c29ee80d7c8ada5da0361a0-9933554c5c4cf6e0-00","errors":{"$":["The JSON value could not be converted to HackathonMessageHub.Domain.Dtos.MessageDto. Path: $ | LineNumber: 0 | BytePositionInLine: 10."],"messageDto":["The messageDto field is required."]}}
+11:28:24,33 custom.clog [[33mWARNING[0m] Upload route files
+11:28:24,35 custom.clog [[32mINFO[0m] Files "route" upload
+11:28:24,46 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:28:24,46 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:28:24,48 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:28:24,583 custom.clog [[33mWARNING[0m] Upload route files
+11:28:24,584 custom.clog [[32mINFO[0m] Files "route" upload
+11:28:24,592 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:28:24,593 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:28:27,63 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:27] "GET / HTTP/1.1" 200 -
+11:28:27,192 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:28:28,153 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+11:28:38,859 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:28:38,981 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:28:38,986 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:28:39,56 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/0a197e8c-34c7-4e70-8c7d-0b97d6d73764 HTTP/1.1" 200 None
+11:28:39,57 custom.clog [[33mWARNING[0m] {"id":"0a197e8c-34c7-4e70-8c7d-0b97d6d73764","phone":"123213","content":"Hello user","callbackUrl":"http://localhost:3030/","status":"Failure"}
+11:28:39,59 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:39] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:28:39,102 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:39] "GET / HTTP/1.1" 200 -
+11:28:39,168 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:28:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:28:56,808 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+11:28:56,962 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:28:57,637 custom.clog [[33mWARNING[0m] Upload route files
+11:28:57,637 custom.clog [[32mINFO[0m] Files "route" upload
+11:28:57,647 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:28:57,648 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:29:00,643 custom.clog [[33mWARNING[0m] Upload route files
+11:29:00,643 custom.clog [[32mINFO[0m] Files "route" upload
+11:29:00,650 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:29:00,650 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:29:00,651 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:29:01,184 custom.clog [[33mWARNING[0m] Upload route files
+11:29:01,185 custom.clog [[32mINFO[0m] Files "route" upload
+11:29:01,195 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:29:01,196 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:29:04,455 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:04] "GET / HTTP/1.1" 200 -
+11:29:04,524 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:08,78 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:08,226 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:29:08,231 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:08,281 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/e70521cc-8b13-4b05-870b-60f55ca0600b HTTP/1.1" 200 None
+11:29:08,282 custom.clog [[33mWARNING[0m] {"id":"e70521cc-8b13-4b05-870b-60f55ca0600b","phone":"89515009197","content":"Hello","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:29:08,283 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:08] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:29:08,291 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:08] "GET / HTTP/1.1" 200 -
+11:29:08,362 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:14,681 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:14,847 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:29:14,849 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:14,941 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/eae43dc9-3a82-4bbe-b00c-e6710bdb70c0 HTTP/1.1" 200 None
+11:29:14,942 custom.clog [[33mWARNING[0m] {"id":"eae43dc9-3a82-4bbe-b00c-e6710bdb70c0","phone":"89515009197","content":"Hello user","callbackUrl":"http://localhost:3030/","status":"Failure"}
+11:29:14,943 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:14] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:29:14,958 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:14] "GET / HTTP/1.1" 200 -
+11:29:15,47 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:22,556 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:22,712 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:29:22,718 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:22,759 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/220ec556-45b7-4393-b348-236f5b5c5527 HTTP/1.1" 200 None
+11:29:22,762 custom.clog [[33mWARNING[0m] {"id":"220ec556-45b7-4393-b348-236f5b5c5527","phone":"89515009197","content":"hello","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:29:22,763 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:22] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:29:22,778 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:22] "GET / HTTP/1.1" 200 -
+11:29:22,931 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:26,75 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:26,140 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:29:26,146 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:26,190 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/d8de2c56-1bba-4bf7-9670-51fb09a8c50f HTTP/1.1" 200 None
+11:29:26,191 custom.clog [[33mWARNING[0m] {"id":"d8de2c56-1bba-4bf7-9670-51fb09a8c50f","phone":"89515009197","content":"asda ","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:29:26,193 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:26] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:29:26,209 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:26] "GET / HTTP/1.1" 200 -
+11:29:26,280 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:29,209 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:29,385 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 500 None
+11:29:29,426 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:29] "[35m[1mPOST /send HTTP/1.1[0m" 500 -
+11:29:29,591 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:29] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+11:29:29,592 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:29] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+11:29:30,68 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:30] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+11:29:36,963 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:37,259 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:29:37,261 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:29:37,400 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/f1574155-47d9-4123-9a3c-b037178c5c34 HTTP/1.1" 200 None
+11:29:37,401 custom.clog [[33mWARNING[0m] {"id":"f1574155-47d9-4123-9a3c-b037178c5c34","phone":"89515009197","content":"asdsa sadsadasdsad","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:29:37,402 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:37] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:29:37,408 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:37] "GET / HTTP/1.1" 200 -
+11:29:37,484 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:29:55,729 custom.clog [[33mWARNING[0m] Upload route files
+11:29:55,729 custom.clog [[32mINFO[0m] Files "route" upload
+11:29:55,738 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:29:55,739 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:29:55,740 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:29:56,215 custom.clog [[33mWARNING[0m] Upload route files
+11:29:56,215 custom.clog [[32mINFO[0m] Files "route" upload
+11:29:56,223 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:29:56,225 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:29:58,399 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:58] "GET / HTTP/1.1" 200 -
+11:29:58,486 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:29:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:30:00,910 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:30:02,258 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:30:02,260 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:30:02,491 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/7f2ffbde-a229-4891-b176-9fc41d49675a HTTP/1.1" 200 None
+11:30:02,492 custom.clog [[33mWARNING[0m] {"id":"7f2ffbde-a229-4891-b176-9fc41d49675a","phone":"89515009197","content":"Hello","callbackUrl":"http://localhost:3030/","status":"Failure"}
+11:30:02,493 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:02] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:30:02,502 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:02] "GET / HTTP/1.1" 200 -
+11:30:02,576 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:30:09,303 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:30:09,488 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:30:09,490 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:30:09,580 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/5a8fd7f2-51ea-4d8c-9b90-6c1aa1b55d9a HTTP/1.1" 200 None
+11:30:09,583 custom.clog [[33mWARNING[0m] {"id":"5a8fd7f2-51ea-4d8c-9b90-6c1aa1b55d9a","phone":"89515009197","content":"Hello","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:30:09,583 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:09] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:30:09,590 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:09] "GET / HTTP/1.1" 200 -
+11:30:09,675 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:30:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:30:58,615 werkzeug [[32mINFO[0m]  * Detected change in '/home/danila/Desktop/hackaton-project/route.py', reloading
+11:30:58,737 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:30:59,339 custom.clog [[33mWARNING[0m] Upload route files
+11:30:59,339 custom.clog [[32mINFO[0m] Files "route" upload
+11:30:59,349 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:30:59,350 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:31:20,602 custom.clog [[33mWARNING[0m] Upload route files
+11:31:20,603 custom.clog [[32mINFO[0m] Files "route" upload
+11:31:20,614 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:31:20,615 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:31:20,616 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:31:21,213 custom.clog [[33mWARNING[0m] Upload route files
+11:31:21,213 custom.clog [[32mINFO[0m] Files "route" upload
+11:31:21,220 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:31:21,221 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:31:21,713 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:21] "GET / HTTP/1.1" 200 -
+11:31:21,811 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:31:25,359 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:25] "[35m[1mPOST /send HTTP/1.1[0m" 500 -
+11:31:25,527 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:25] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+11:31:25,531 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:25] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+11:31:25,819 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:31:25] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+11:32:01,164 custom.clog [[33mWARNING[0m] Upload route files
+11:32:01,164 custom.clog [[32mINFO[0m] Files "route" upload
+11:32:01,176 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:32:01,176 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:32:01,178 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:32:01,850 custom.clog [[33mWARNING[0m] Upload route files
+11:32:01,851 custom.clog [[32mINFO[0m] Files "route" upload
+11:32:01,861 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:32:01,862 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:32:06,465 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:06] "[35m[1mPOST /send HTTP/1.1[0m" 500 -
+11:32:06,552 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:06] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+11:32:06,554 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:06] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+11:32:06,942 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:06] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+11:32:09,133 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:09] "GET / HTTP/1.1" 200 -
+11:32:09,191 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:32:11,470 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:32:11,667 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:32:11,672 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:32:11,748 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/df751e16-97c5-467f-86df-f0397cf4c26c HTTP/1.1" 200 None
+11:32:11,749 custom.clog [[33mWARNING[0m] {"id":"df751e16-97c5-467f-86df-f0397cf4c26c","phone":"89515009197","content":"123","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:32:11,750 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:11] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:32:11,759 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:11] "GET / HTTP/1.1" 200 -
+11:32:11,839 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+11:32:18,900 custom.clog [[33mWARNING[0m] Upload route files
+11:32:18,900 custom.clog [[32mINFO[0m] Files "route" upload
+11:32:18,913 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3030
+11:32:18,913 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+11:32:18,916 werkzeug [[32mINFO[0m]  * Restarting with stat
+11:32:19,442 custom.clog [[33mWARNING[0m] Upload route files
+11:32:19,442 custom.clog [[32mINFO[0m] Files "route" upload
+11:32:19,452 werkzeug [[33mWARNING[0m]  * Debugger is active!
+11:32:19,452 werkzeug [[32mINFO[0m]  * Debugger PIN: 395-012-872
+11:32:21,780 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:32:24,850 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 500 None
+11:32:24,864 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:24] "[35m[1mPOST /send HTTP/1.1[0m" 500 -
+11:32:24,977 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+11:32:24,983 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:24] "[36mGET /send?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+11:32:25,247 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:25] "[36mGET /send?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+11:32:35,959 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:32:36,128 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "POST /api/Messages HTTP/1.1" 200 None
+11:32:36,131 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.250.2.2:2050
+11:32:36,317 urllib3.connectionpool DEBUG http://10.250.2.2:2050 "GET /api/Messages/1540abc3-a4c2-4b00-b1e9-e94a70546347 HTTP/1.1" 200 None
+11:32:36,317 custom.clog [[33mWARNING[0m] {"id":"1540abc3-a4c2-4b00-b1e9-e94a70546347","phone":"89515009197","content":"hello","callbackUrl":"http://localhost:3030/","status":"Success"}
+11:32:36,318 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "[32mPOST /send HTTP/1.1[0m" 302 -
+11:32:36,338 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "GET / HTTP/1.1" 200 -
+11:32:36,408 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 11:32:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
