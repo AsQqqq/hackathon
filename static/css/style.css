@@ -14,10 +14,6 @@
     list-style-type: none;
 }
 
-body {
-    background-image: url(../assets/background-image-city.jpg);
-}
-
 .searchInfo {
     display: flex;
     justify-content: center;
