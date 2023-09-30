@@ -70,17 +70,16 @@
 <!-- Frontend Developer -->
 
 ### Перекалин Серафим
-![Serafim](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Serafim.png?raw=true)
-
+[![Serafim](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Serafim.png?raw=true)](https://vk.com/s.perekalin)
 > 18 лет, основной род занятия в IT - разработка мобильных приложений и Frontend.
 
 ### Удодов Данила
-![Danila](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Danila.png?raw=true)
+[![Danila](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Danila.png?raw=true)](https://vk.com/phonk_danilov)
 
 > 19 лет, основная специализация Backend-решения и разработка чат-ботов. 
 
 ### Мазнов Егор
-![Egor](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Egor.png?raw=true)
+[![Egor](https://github.com/AsQqqq/hackathon/blob/develop-asq/git-assets/Egor.png?raw=true)](https://vk.com/hixyy)
 
 > 18 лет, преимущественно работаю в Adobe Photoshop, занимаюсь концепт-разработкой различных дизайн-систем.
 
