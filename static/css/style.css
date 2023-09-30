@@ -30,7 +30,7 @@ body {
     background-image: url(../assets/group-people-container.png);
     background-position: top;
     background-repeat: no-repeat;
-    overflow: auto;
+    overflow: visible;
     height: 898px;
 }
 
