@@ -2,11 +2,6 @@
     display: none;
 }
 
-#elastic {
-    display: flex;
-    justify-content: center;
-}
-
 .elastic li{
     transition: all ease 500ms;
 }
@@ -23,20 +18,32 @@ body {
     background-image: url(../assets/background-image-city.jpg);
 }
 
-.listInfo {
-    display: flex;
-    justify-content: center;
-    align-content: right;
-    background-image: url(../assets/group-people-container.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    overflow: visible;
-    height: 898px;
-}
-
 .searchInfo {
     display: flex;
     justify-content: center;
+}
+
+.additionalBtns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.elastic {
+    margin-top: 50px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.functionalPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #elastic {
@@ -44,14 +51,50 @@ body {
     outline: none;
     height: 50px;
     width: 400px;
-}
-
-.additionalBtns {
     display: flex;
     justify-content: center;
-    align-content: center;
+    background-color: #d0d0d0;
 }
 
-.elastic {
-    margin-top: 50px;
+#ctnBtn {
+    background-color: #e08860;
+    color: #efefef;
+}
+
+#addBtn {
+    background-color: #2f3262;
+    color: #efefef;
+}
+
+#phoneNumbers {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    margin-left: 35%;
+    margin-right: 33%;
+    overflow-y: scroll;
+    background-color: #d0d0d0;
+    margin-top: 2%;
+}
+
+#msgInputDiv {
+    display: flex;
+    height: 550px;
+    overflow-y: scroll;
+    margin-top: 2%;
+}
+
+#historyBtn {
+    background-color: #282b54;
+    color: #efefef;
+}
+
+#backBtn {
+    background-color: #e08860;
+    color: #efefef;
+}
+
+#sendBtn {
+    background-color: #d24a43;
+    color: #ffffff;
 }

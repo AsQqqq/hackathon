@@ -10,8 +10,13 @@ app = Flask(__name__)
 def index() -> render_template:
     """Основная вкладка"""
     data = datab().select_all_users()
-    # return render_template('index.html', users_data=data)
-    return render_template('send.html')
+    return render_template('index.html', users_data=data)
+    # return render_template('send.html')
+
+@app.route('/add_message', methods=['GET'])
+def hgfg() -> render_template:
+    """Основная вкладка"""
+    return render_template('add_message.html')
 
 @app.route('/send', methods=['POST', 'GET'])
 def send():
@@ -31,6 +36,14 @@ def send():
     check_responce(response_json=response_json)
     
     return redirect('http://localhost:3040')
+
+@app.route('/number', methods=['POST', 'GET'])
+def number():
+    num = request.form.get('phone_number')
+    print(num)
+    # items = []
+    # items.append(num)
+    # print(items)
 
 def check_responce(response_json) -> None:
     try:

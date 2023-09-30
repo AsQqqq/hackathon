@@ -2230,3 +2230,422 @@
 16:24:40,857 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "[32mPOST /send HTTP/1.1[0m" 302 -
 16:24:40,900 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "GET / HTTP/1.1" 200 -
 16:24:40,955 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 16:24:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+16:59:21,935 custom.clog [[33mWARNING[0m] Upload route files
+16:59:21,946 custom.clog [[32mINFO[0m] Files "route" upload
+16:59:22,149 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+16:59:22,150 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+16:59:22,172 werkzeug [[32mINFO[0m]  * Restarting with stat
+16:59:23,854 custom.clog [[33mWARNING[0m] Upload route files
+16:59:23,854 custom.clog [[32mINFO[0m] Files "route" upload
+16:59:23,940 werkzeug [[33mWARNING[0m]  * Debugger is active!
+16:59:23,947 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:33:15,323 custom.clog [[33mWARNING[0m] Upload route files
+18:33:15,335 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:15,485 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:33:15,486 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:33:15,506 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:33:16,751 custom.clog [[33mWARNING[0m] Upload route files
+18:33:16,751 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:16,772 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:33:16,868 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:33:48,476 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:33:48,591 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:33:50,583 custom.clog [[33mWARNING[0m] Upload route files
+18:33:50,584 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:50,611 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:33:50,621 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:33:52,712 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:33:52,847 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:33:54,99 custom.clog [[33mWARNING[0m] Upload route files
+18:33:54,100 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:54,120 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:33:54,125 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:33:56,197 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:33:56,326 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:33:57,423 custom.clog [[33mWARNING[0m] Upload route files
+18:33:57,423 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:57,443 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:33:57,448 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:33:58,496 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:33:58,615 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:33:59,751 custom.clog [[33mWARNING[0m] Upload route files
+18:33:59,752 custom.clog [[32mINFO[0m] Files "route" upload
+18:33:59,773 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:33:59,778 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:34:13,474 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:13] "GET / HTTP/1.1" 200 -
+18:34:13,868 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:13] "GET /static/css/style.css HTTP/1.1" 200 -
+18:34:13,869 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:13] "GET /static/javascript/func.js HTTP/1.1" 200 -
+18:34:14,193 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:14] "GET /static/assets/background-image-city.jpg HTTP/1.1" 200 -
+18:34:14,260 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:14] "GET /static/assets/group-people-container.png HTTP/1.1" 200 -
+18:34:14,635 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:34:18,278 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:18] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:34:18,515 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:18] "GET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18:34:18,796 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:18] "GET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+18:34:19,331 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:19] "GET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18:34:19,562 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:34:19] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:43:29,892 custom.clog [[33mWARNING[0m] Upload route files
+18:43:29,893 custom.clog [[32mINFO[0m] Files "route" upload
+18:43:29,927 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:43:29,927 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:43:29,932 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:43:30,983 custom.clog [[33mWARNING[0m] Upload route files
+18:43:30,983 custom.clog [[32mINFO[0m] Files "route" upload
+18:43:31,2 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:43:31,8 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:43:41,969 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:41] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:43:42,166 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:42] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:43:42,200 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:42] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:43:42,612 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:42] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:43:42,865 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:42] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:43:56,423 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:56] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:43:56,528 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:56] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:43:56,659 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:56] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:43:57,23 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:57] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:43:57,277 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:43:57] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:45:15,462 custom.clog [[33mWARNING[0m] Upload route files
+18:45:15,463 custom.clog [[32mINFO[0m] Files "route" upload
+18:45:15,499 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:45:15,499 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:45:15,504 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:45:16,523 custom.clog [[33mWARNING[0m] Upload route files
+18:45:16,524 custom.clog [[32mINFO[0m] Files "route" upload
+18:45:16,542 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:45:16,547 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:45:22,290 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:45:22] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:45:22,453 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:45:22] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:45:22,520 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:45:22] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:45:22,849 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:45:22] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:45:23,107 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:45:23] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:48:18,611 custom.clog [[33mWARNING[0m] Upload route files
+18:48:18,612 custom.clog [[32mINFO[0m] Files "route" upload
+18:48:18,659 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:48:18,660 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:48:18,663 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:48:19,768 custom.clog [[33mWARNING[0m] Upload route files
+18:48:19,769 custom.clog [[32mINFO[0m] Files "route" upload
+18:48:19,791 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:48:19,797 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:48:24,499 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:24] "GET / HTTP/1.1" 200 -
+18:48:24,694 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:48:24,697 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:24] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+18:48:25,9 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:25] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+18:48:25,11 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:25] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+18:48:29,258 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:29] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:48:29,345 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:29] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:48:29,467 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:29] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:48:29,789 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:48:29] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:50:20,739 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:50:20,851 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:50:22,281 custom.clog [[33mWARNING[0m] Upload route files
+18:50:22,282 custom.clog [[32mINFO[0m] Files "route" upload
+18:50:22,309 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:50:22,320 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:50:29,202 custom.clog [[33mWARNING[0m] Upload route files
+18:50:29,204 custom.clog [[32mINFO[0m] Files "route" upload
+18:50:29,291 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:50:29,291 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:50:29,300 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:50:30,658 custom.clog [[33mWARNING[0m] Upload route files
+18:50:30,659 custom.clog [[32mINFO[0m] Files "route" upload
+18:50:30,678 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:50:30,683 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:50:32,155 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:32] "GET / HTTP/1.1" 200 -
+18:50:32,327 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:50:32,373 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:32] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+18:50:32,646 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:32] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+18:50:32,647 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:32] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+18:50:33,999 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:33] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:50:34,28 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:34] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:50:34,218 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:34] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:50:34,537 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:50:34] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:52:50,827 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:52:50,953 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:52:59,568 custom.clog [[33mWARNING[0m] Upload route files
+18:52:59,568 custom.clog [[32mINFO[0m] Files "route" upload
+18:52:59,614 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:52:59,614 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:52:59,618 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:53:01,557 custom.clog [[33mWARNING[0m] Upload route files
+18:53:01,558 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:01,589 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:53:01,598 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:53:02,367 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:02] "GET / HTTP/1.1" 200 -
+18:53:02,541 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:53:02,586 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:02] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+18:53:02,859 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:02] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+18:53:02,860 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:02] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+18:53:04,45 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:04] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:53:04,70 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:04] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:53:04,288 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:04] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:53:04,619 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:04] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+18:53:16,845 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:53:16,951 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:53:18,203 custom.clog [[33mWARNING[0m] Upload route files
+18:53:18,204 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:18,222 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:53:18,227 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:53:20,288 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:53:20,436 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:53:22,363 custom.clog [[33mWARNING[0m] Upload route files
+18:53:22,365 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:22,393 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:53:22,400 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:53:23,491 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+18:53:23,724 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:53:25,54 custom.clog [[33mWARNING[0m] Upload route files
+18:53:25,55 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:25,75 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:53:25,80 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:53:31,280 custom.clog [[33mWARNING[0m] Upload route files
+18:53:31,281 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:31,318 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+18:53:31,318 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+18:53:31,325 werkzeug [[32mINFO[0m]  * Restarting with stat
+18:53:33,154 custom.clog [[33mWARNING[0m] Upload route files
+18:53:33,155 custom.clog [[32mINFO[0m] Files "route" upload
+18:53:33,175 werkzeug [[33mWARNING[0m]  * Debugger is active!
+18:53:33,182 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+18:53:33,427 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:33] "GET / HTTP/1.1" 200 -
+18:53:33,630 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:33] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+18:53:33,632 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+18:53:33,951 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:33] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+18:53:33,952 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:33] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+18:53:34,990 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:34] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+18:53:35,284 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:35] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+18:53:35,339 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:35] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+18:53:35,660 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 18:53:35] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+21:46:39,872 custom.clog [[33mWARNING[0m] Upload route files
+21:46:39,903 custom.clog [[32mINFO[0m] Files "route" upload
+21:46:40,233 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+21:46:40,233 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+21:46:40,253 werkzeug [[32mINFO[0m]  * Restarting with stat
+21:46:41,565 custom.clog [[33mWARNING[0m] Upload route files
+21:46:41,565 custom.clog [[32mINFO[0m] Files "route" upload
+21:46:41,586 werkzeug [[33mWARNING[0m]  * Debugger is active!
+21:46:41,626 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+21:46:45,271 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:45] "GET / HTTP/1.1" 200 -
+21:46:46,13 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:46] "GET /static/css/style.css HTTP/1.1" 200 -
+21:46:46,68 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:46] "GET /static/javascript/func.js HTTP/1.1" 200 -
+21:46:46,377 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:46] "GET /static/assets/background-image-city.jpg HTTP/1.1" 200 -
+21:46:46,381 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:46] "GET /static/assets/group-people-container.png HTTP/1.1" 200 -
+21:46:47,239 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:46:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+21:47:52,387 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:47:52] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+21:47:52,467 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:47:52] "GET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21:47:52,669 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:47:52] "GET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21:47:53,113 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:47:53] "GET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21:47:53,364 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:47:53] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+21:52:57,858 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:57] "[35m[1mPOST /number HTTP/1.1[0m" 500 -
+21:52:57,894 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:57] "[36mGET /number?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+21:52:58,96 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:58] "[36mGET /number?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+21:52:58,458 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:58] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+21:52:58,708 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:58] "[36mGET /number?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+21:52:59,736 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:59] "GET / HTTP/1.1" 200 -
+21:52:59,799 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:52:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+21:53:00,72 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:53:00] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+21:53:00,376 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:53:00] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+21:53:00,378 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 21:53:00] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+22:04:51,757 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:04:51] "GET / HTTP/1.1" 200 -
+22:04:51,778 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:04:51] "GET /static/css/style.css HTTP/1.1" 200 -
+22:04:51,860 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:04:51] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:04:52,130 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:04:52] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:04:52,133 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:04:52] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+22:07:25,59 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:07:25] "GET / HTTP/1.1" 200 -
+22:07:25,87 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:07:25] "GET /static/css/style.css HTTP/1.1" 200 -
+22:07:25,164 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:07:25] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:07:25,452 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:07:25] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:07:25,453 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:07:25] "[36mGET /static/assets/group-people-container.png HTTP/1.1[0m" 304 -
+22:11:58,453 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:11:58] "GET / HTTP/1.1" 200 -
+22:11:58,479 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:11:58] "GET /static/css/style.css HTTP/1.1" 200 -
+22:11:58,571 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:11:58] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:11:58,831 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:11:58] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:12:27,691 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:12:27] "GET / HTTP/1.1" 200 -
+22:12:27,765 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:12:27] "GET /static/css/style.css HTTP/1.1" 200 -
+22:12:27,803 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:12:27] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:12:28,93 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:12:28] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:13:09,769 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:13:09] "GET / HTTP/1.1" 200 -
+22:13:09,796 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:13:09] "GET /static/css/style.css HTTP/1.1" 200 -
+22:13:09,889 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:13:09] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:13:10,149 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:13:10] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:14:06,341 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:14:06] "GET / HTTP/1.1" 200 -
+22:14:06,430 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:14:06] "GET /static/css/style.css HTTP/1.1" 200 -
+22:14:06,435 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:14:06] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:14:06,751 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:14:06] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:16:13,878 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:16:13] "GET / HTTP/1.1" 200 -
+22:16:13,902 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:16:13] "GET /static/css/style.css HTTP/1.1" 200 -
+22:16:13,966 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:16:13] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:16:14,240 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:16:14] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:17:36,842 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:17:36] "GET / HTTP/1.1" 200 -
+22:17:36,863 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:17:36,940 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:17:36] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:17:37,205 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:17:37] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:19:16,980 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:16] "GET / HTTP/1.1" 200 -
+22:19:17,1 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:17] "GET /static/css/style.css HTTP/1.1" 200 -
+22:19:17,79 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:17] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:19:17,347 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:17] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:19:23,449 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:23] "GET / HTTP/1.1" 200 -
+22:19:23,472 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:19:23,557 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:23] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:19:40,40 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:40] "GET / HTTP/1.1" 200 -
+22:19:40,67 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:40] "GET /static/css/style.css HTTP/1.1" 200 -
+22:19:40,150 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:40] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:19:40,406 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:40] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:19:53,135 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:53] "GET / HTTP/1.1" 200 -
+22:19:53,156 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:53] "GET /static/css/style.css HTTP/1.1" 200 -
+22:19:53,258 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:53] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:19:53,504 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:19:53] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:24:25,600 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:24:25] "GET / HTTP/1.1" 200 -
+22:24:25,621 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:24:25] "GET /static/css/style.css HTTP/1.1" 200 -
+22:24:25,707 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:24:25] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:24:25,972 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:24:25] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:25:33,628 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:25:33] "GET / HTTP/1.1" 200 -
+22:25:33,654 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:25:33] "GET /static/css/style.css HTTP/1.1" 200 -
+22:25:33,722 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:25:33] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:25:34,10 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:25:34] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:26:55,389 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:55] "GET / HTTP/1.1" 200 -
+22:26:55,413 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:55] "GET /static/css/style.css HTTP/1.1" 200 -
+22:26:55,498 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:55] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:26:55,771 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:55] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:26:59,255 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:59] "GET / HTTP/1.1" 200 -
+22:26:59,278 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:26:59,363 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:26:59] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:27:18,680 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:18] "GET / HTTP/1.1" 200 -
+22:27:18,707 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:18] "GET /static/css/style.css HTTP/1.1" 200 -
+22:27:18,801 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:18] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:27:19,63 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:19] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:27:38,990 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:38] "GET / HTTP/1.1" 200 -
+22:27:39,10 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:39] "GET /static/css/style.css HTTP/1.1" 200 -
+22:27:39,50 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:39] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:27:39,352 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:39] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:27:40,433 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:40] "GET / HTTP/1.1" 200 -
+22:27:40,457 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:27:40,561 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:27:40] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:27:55,1 custom.clog [[33mWARNING[0m] Upload route files
+22:27:55,1 custom.clog [[32mINFO[0m] Files "route" upload
+22:27:55,51 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+22:27:55,51 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+22:27:55,56 werkzeug [[32mINFO[0m]  * Restarting with stat
+22:27:56,56 custom.clog [[33mWARNING[0m] Upload route files
+22:27:56,56 custom.clog [[32mINFO[0m] Files "route" upload
+22:27:56,77 werkzeug [[33mWARNING[0m]  * Debugger is active!
+22:27:56,82 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+22:28:00,973 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:28:00] "GET / HTTP/1.1" 200 -
+22:28:01,137 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:28:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:28:01,300 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:28:01] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:29:21,153 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:29:21] "GET / HTTP/1.1" 200 -
+22:29:21,176 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:29:21] "GET /static/css/style.css HTTP/1.1" 200 -
+22:29:21,262 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:29:21] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:29:21,515 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:29:21] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:30:24,805 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:24] "GET / HTTP/1.1" 200 -
+22:30:24,827 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:30:24,891 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:24] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:30:25,169 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:25] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:30:41,820 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:41] "GET / HTTP/1.1" 200 -
+22:30:41,848 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:41] "GET /static/css/style.css HTTP/1.1" 200 -
+22:30:41,946 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:41] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:30:42,188 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:42] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:30:54,710 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:54] "GET / HTTP/1.1" 200 -
+22:30:54,738 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:54] "GET /static/css/style.css HTTP/1.1" 200 -
+22:30:54,800 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:54] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:30:55,70 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:30:55] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:31:13,870 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:31:13] "GET / HTTP/1.1" 200 -
+22:31:13,911 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:31:13] "GET /static/css/style.css HTTP/1.1" 200 -
+22:31:13,978 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:31:13] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:31:14,235 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:31:14] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:33:28,821 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:28] "GET / HTTP/1.1" 200 -
+22:33:28,844 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:33:28,935 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:28] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:33:29,190 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:29] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:33:51,878 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:51] "GET / HTTP/1.1" 200 -
+22:33:51,899 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:51] "GET /static/css/style.css HTTP/1.1" 200 -
+22:33:51,996 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:51] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:33:52,245 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:33:52] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:34:04,932 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:34:04] "GET / HTTP/1.1" 200 -
+22:34:04,955 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:34:04] "GET /static/css/style.css HTTP/1.1" 200 -
+22:34:05,41 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:34:05] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:34:05,295 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:34:05] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:35:03,177 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:03] "GET / HTTP/1.1" 200 -
+22:35:03,207 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:35:03,210 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:03] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:35:03,558 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:03] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:35:23,108 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:23] "GET / HTTP/1.1" 200 -
+22:35:23,132 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:23] "GET /static/css/style.css HTTP/1.1" 200 -
+22:35:23,207 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:23] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:35:23,478 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:35:23] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:37:00,17 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:00] "GET / HTTP/1.1" 200 -
+22:37:00,41 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:00] "GET /static/css/style.css HTTP/1.1" 200 -
+22:37:00,48 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:00] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:37:00,390 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:00] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:37:27,297 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:27] "GET / HTTP/1.1" 200 -
+22:37:27,317 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+22:37:27,366 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:27] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:37:43,936 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:43] "GET / HTTP/1.1" 200 -
+22:37:43,960 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:43] "GET /static/css/style.css HTTP/1.1" 200 -
+22:37:44,37 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:44] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:37:44,305 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:44] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:37:53,889 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:53] "GET / HTTP/1.1" 200 -
+22:37:53,915 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:53] "GET /static/css/style.css HTTP/1.1" 200 -
+22:37:54,3 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:54] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:37:54,257 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:37:54] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:38:19,652 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:38:19] "GET / HTTP/1.1" 200 -
+22:38:19,678 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:38:19] "GET /static/css/style.css HTTP/1.1" 200 -
+22:38:19,777 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:38:19] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:38:20,25 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:38:20] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:39:04,232 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:39:04] "GET / HTTP/1.1" 200 -
+22:39:04,254 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:39:04] "GET /static/css/style.css HTTP/1.1" 200 -
+22:39:04,354 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:39:04] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:39:04,601 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:39:04] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:47:24,890 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:24] "GET / HTTP/1.1" 200 -
+22:47:24,930 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:24] "GET /static/css/style.css HTTP/1.1" 200 -
+22:47:24,936 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:24] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:47:25,295 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:25] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:47:57,48 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:57] "GET / HTTP/1.1" 200 -
+22:47:57,73 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:57] "GET /static/css/style.css HTTP/1.1" 200 -
+22:47:57,158 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:57] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:47:57,454 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:47:57] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:48:55,304 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:48:55] "GET / HTTP/1.1" 200 -
+22:48:55,328 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:48:55] "GET /static/css/style.css HTTP/1.1" 200 -
+22:48:55,405 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:48:55] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:48:55,689 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:48:55] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:49:31,283 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:49:31] "GET / HTTP/1.1" 200 -
+22:49:31,309 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:49:31] "GET /static/css/style.css HTTP/1.1" 200 -
+22:49:31,374 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:49:31] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:49:31,670 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:49:31] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:50:12,941 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:12] "GET / HTTP/1.1" 200 -
+22:50:12,971 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:12] "GET /static/css/style.css HTTP/1.1" 200 -
+22:50:12,992 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:12] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
+22:50:13,352 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 22:50:13] "[36mGET /static/assets/background-image-city.jpg HTTP/1.1[0m" 304 -
+22:59:58,429 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+22:59:59,572 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:00:04,577 custom.clog [[33mWARNING[0m] Upload route files
+23:00:04,578 custom.clog [[32mINFO[0m] Files "route" upload
+23:00:04,610 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:00:04,685 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+23:00:10,973 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 23:00:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+23:00:11,252 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 23:00:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+23:00:11,262 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 23:00:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+23:00:11,765 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 23:00:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+23:00:12,21 werkzeug [[32mINFO[0m] 127.0.0.1 - - [30/Sep/2023 23:00:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+23:00:24,960 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+23:00:25,92 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:00:26,279 custom.clog [[33mWARNING[0m] Upload route files
+23:00:26,279 custom.clog [[32mINFO[0m] Files "route" upload
+23:00:26,330 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:00:26,340 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+23:00:30,426 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+23:00:30,553 werkzeug [[32mINFO[0m]  * Restarting with stat
+23:00:31,827 custom.clog [[33mWARNING[0m] Upload route files
+23:00:31,828 custom.clog [[32mINFO[0m] Files "route" upload
+23:00:31,832 werkzeug [[33mWARNING[0m]  * Debugger is active!
+23:00:31,848 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+23:09:09,545 werkzeug [[32mINFO[0m]  * Detected change in 'c:\\Users\\blazhenny\\Desktop\\hackathon\\route.py', reloading
+23:09:09,694 werkzeug [[32mINFO[0m]  * Restarting with stat

@@ -10,8 +10,8 @@ class database:
         """база данных"""
         try:
             # Вход в базу данных
-            self.database_name = 'hackathon'
-            self.user_name = 'hackathon'
+            self.database_name = 'postgres'
+            self.user_name = 'postgres'
             self.host = 'localhost'
             self.password = 'toor'
             self.connection = psycopg2.connect(
@@ -71,5 +71,5 @@ class database:
 
 
 if __name__ == "__main__":
-    # database().system_add_user(users=900)
-    print(database().select_all_users())
+    database().system_add_user(users=100)
+    # print(database().select_all_users())
