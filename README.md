@@ -60,7 +60,7 @@
 
 * [Для windows](https://github.com/AsQqqq/hackathon/blob/develop-asq/WINBASE.md)
 
-* [Для linux](https://github.com/AsQqqq/hackathon/blob/develop-asq/UIXBASE.md)
+* [Для linux](https://github.com/AsQqqq/hackathon/blob/develop-asq/UNIXBASE.md)
 
 [Вернуться](#о-проекте-watermelon)
 

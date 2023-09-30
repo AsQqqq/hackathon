@@ -1,7 +1,7 @@
 import logging
 from colorama import Fore, Style
 
-path_to_logs = "log/" # path log
+path_to_logs = "" # path log
 terminal_cleanup_command = 'clear'
 
 def info_(text: str) -> str:
