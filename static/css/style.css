@@ -17,6 +17,9 @@
 
 .userElement {
     list-style-type: none;
+    border: 1px solid orange;
+    margin: 20px;
+    border-radius: 20%;
 }
 
 body {
@@ -27,11 +30,14 @@ body {
     display: flex;
     justify-content: center;
     align-content: right;
-    background-image: url(../assets/group-people-container.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    overflow: visible;
+    overflow-y: scroll;
+    border: 1px solid white;
     height: 898px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10%;
 }
 
 .searchInfo {
@@ -44,6 +50,8 @@ body {
     outline: none;
     height: 50px;
     width: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .additionalBtns {
@@ -54,4 +62,8 @@ body {
 
 .elastic {
     margin-top: 50px;
+}
+
+li {
+    text-align: center;
 }
