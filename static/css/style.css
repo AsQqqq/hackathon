@@ -1,5 +1,8 @@
 body {
     background-color: #56baed;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 .hide {
@@ -27,9 +30,7 @@ body {
 .additionalBtns {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 1%;
 }
 
 .btnContainer {
@@ -39,6 +40,9 @@ body {
 
 .elastic {
     margin-top: 50px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
 }
 
 .parent {
@@ -86,21 +90,35 @@ body {
 }
 
 #elastic {
+  background: url("../assets/search-alt-svgrepo-com.svg") no-repeat right;
+  background-size: 20px;
+  background-position: 480px;
+  z-index: 3;
+}
+
+#elastic {
+    background-color: #fff;
     border: none;
+    color: #0d0d0d;
     outline: none;
     height: 50px;
-    width: 400px;
+    width: 528px;
     display: flex;
     justify-content: center;
-    background-color: #d0d0d0;
+    z-index: 2;
+}
+
+#elastic:focus {
+  background-color: #fff;
 }
 
 #ctnBtn {
     display: flex;
     justify-content: center;
+    align-self: center;
     background-color: #39ace7;
     color: #efefef;
-    margin-top: 2%;
+    margin-top: 15%;
 }
 
 #addBtn {
@@ -111,12 +129,14 @@ body {
 #phoneNumbers {
     display: flex;
     justify-content: center;
-    height: 550px;
-    margin-left: 35%;
-    margin-right: 33%;
-    overflow-y: scroll;
-    background-color: #d0d0d0;
-    margin-top: 2%;
+    height: 450px;
+     margin-left: 30%;
+    margin-right: 30%; 
+    background-color: #f6f6f6;
+    margin-top: 1%;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
 }
 
 #msgInputDiv {
@@ -127,6 +147,11 @@ body {
     overflow-y: scroll;
     margin-top: 2%;
     background-color: #d0d0d0;
+}
+
+#searchIcon {
+  height:25px;
+  width: 25px;
 }
 
 #historyBtn {

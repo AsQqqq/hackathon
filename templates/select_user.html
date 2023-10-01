@@ -21,13 +21,13 @@
         </div>
 
         <div class="additionalBtns">
-            <input type="text" id="elastic">
+            <input type="text" id="elastic" placeholder="Поиск">
         </div>
 
         <span class="border rounded-3" id="phoneNumbers">
             <ol class="elastic">
                 {% for i in users_data %}
-                <li class="userElement">{{ i.phone_number }}<div class="buttonContainer"><input type="submit" id="btn" onclick="sendPhoneNumber('{{ i.phone_number }}')"></div>
+                <li class="userElement">{{ i.phone_number }}<div class="buttonContainer"><input class="{{ i.phone_number }}" type="submit" value="ДОБАВИТЬ" id="{{ i.phone_number }}" onclick="sendPhoneNumber('{{ i.phone_number }}')"></div>
                 {% endfor %}
             </ol>
         </span>
@@ -42,6 +42,6 @@
         <script src="/static/javascript/preloader.js"></script>
         <!-- js bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+        <script src="static/javascript/func.js"></script>
     </body>
 </html>

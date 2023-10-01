@@ -1,4 +1,4 @@
-from flask import render_template, request, Flask, redirect
+from flask import render_template, request, Flask, redirect, abort
 from custom import info_, warning_, error_
 import requests
 from config import url, headers
@@ -10,20 +10,6 @@ import json
 
 app = Flask(__name__)
 
-
-list_message = [
-    'm1',
-    'm2',
-    'm3',
-    'm4',
-    'm5',
-    'm6',
-    'm7',
-    'm8',
-    'm9',
-    'm10',
-    'm11',
-]
 
 
 list_number = []
@@ -50,7 +36,7 @@ def join_to_server() -> render_template:
                 data = datab().select_all_users()
                 return render_template('select_user.html', users_data=data)
     except:
-        return '404'
+        return abort(404)
 
 @app.route('/phone-number', methods=['POST'])
 def handle_phone_number() -> str:
@@ -65,6 +51,8 @@ def handle_phone_number() -> str:
         info_(phone_number)
     return 'ok'
 
+
+
 @app.route('/send_message', methods=['GET', 'POST'])
 def add_message() -> render_template:
     """Страница отправки сообщения"""
@@ -75,76 +63,28 @@ def add_message() -> render_template:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@app.route('/send_all', methods=['POST', 'GET'])
-def send_all():
-    a = request.form['message']
-    if a == '':
-        return redirect('http://localhost:3040')
-    
-    process = Process(target=send_message_all, args=(a,list_number,))
-    process.start()
-
-    return redirect('http://localhost:3040')
-
-
-
-
-
 @app.route('/send_all_users', methods=['POST', 'GET'])
 def send_all_users():
-    process = Process(target=send_message_all_user, args=(list_message,list_number,))
+    message = request.form['message']
+    warning_(text=message)
+    process = Process(target=send_message_all_user, args=(message,list_number,))
     process.start()
 
-    return redirect('http://localhost:3040')
+    return redirect('http://localhost:3040/send_message')
 
 
-
-
-def send_message_all(a, list_number) -> None:
+def send_message_all_user(message, list_number):
     for i in list_number:
+        print(i)
         data = {
             'phone': i,
-            'message': a,
+            'message': message,
             'callback_url': 'http://localhost:3040/'
         }
-        response = requests.post(url, headers=headers, json=data)
-        response_json = response.json()
-        check_responce(response_json=response_json)
+        # response = requests.post(url, headers=headers, json=data)
+        # response_json = response.json()
+        # check_responce(response_json=response_json)
         sleep(0.15)
-
-def send_message_all_user(list_message, list_number):
-    for i in list_number:
-        for u in list_message:
-            data = {
-                'phone': i,
-                'message': u,
-                'callback_url': 'http://localhost:3040/'
-            }
-            response = requests.post(url, headers=headers, json=data)
-            response_json = response.json()
-            check_responce(response_json=response_json)
-            sleep(0.15)
-
-    # return render_template('send.html')
 
 
 
@@ -154,35 +94,9 @@ def history() -> render_template:
     return render_template('history.html')
 
 
-@app.route('/send', methods=['POST', 'GET'])
-def send() -> redirect:
-    """Получение данных из html"""
-    a = request.form['message']
-    if a == '':
-        return redirect('http://localhost:3040')
-    data = {
-        'phone': '89515009197',
-        'message': a,
-        'callback_url': 'http://localhost:3040/'
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    response_json = response.json()
-    check_responce(response_json=response_json)
-    
-    return redirect('http://localhost:3040')
-
-
-
-# @app.route('/number', methods=['POST', 'GET'])
-# def number():
-#     num = request.form.get('phone_number')
-#     print(num)
-#     # items = []
-#     # items.append(num)
-#     # print(items)
 
 def check_responce(response_json) -> None:
+    """Просмотр на ошибки запроса"""
     try:
         message_id = response_json['id']
         get_response = requests.get(url=f'{url}/{message_id}', headers=headers)
