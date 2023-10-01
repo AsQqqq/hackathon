@@ -10,8 +10,8 @@ class database:
         """база данных"""
         try:
             # Вход в базу данных
-            self.database_name = 'hackathon'
-            self.user_name = 'hackathon'
+            self.database_name = 'postgres'
+            self.user_name = 'postgres'
             self.host = 'localhost'
             self.password = 'toor'
             self.connection = psycopg2.connect(

@@ -6,7 +6,6 @@
 * [Перед началом](#установка)
     * [Виртуальное окружение](#виртуальное-окружение)
     * [Установка библиотек](#установка-библиотек)
-    * [Системные папки](#системные-папки)
     * [База данных](#база-данных)
 * [Разработчики](#разработчики)
 
@@ -28,31 +27,20 @@
 - linux
     - `source .venv/bin/activate`
 - windows
-    - cmd.exe
-        - `.venv/Scripts/activate.bat`
-    - PowerShell
-        - `.venv/Scripts/Activate.ps1`
+    - `.venv/Scripts/activate`
 
 [Вернуться](#о-проекте-watermelon)
 
 ### Установка библиотек
 
 - `pip install flask`
+- `pip install requests`
 - `pip install colorama`
 - linux
     - `pip install psycopg2-binary`
 - windows
     - `pip install psycopg2`
 - `pip install mimesis`
-
-[Вернуться](#о-проекте-watermelon)
-
-### Системные папки
-
-После установки всего самого важного нужно создать папку
-- `log`
-
-в корневой папке проекта.
 
 [Вернуться](#о-проекте-watermelon)
 
