@@ -10,8 +10,8 @@ class database:
         """база данных"""
         try:
             # Вход в базу данных
-            self.database_name = 'hackathon'
-            self.user_name = 'hackathon'
+            self.database_name = 'postgres'
+            self.user_name = 'postgres'
             self.host = 'localhost'
             self.password = 'toor'
             self.connection = psycopg2.connect(
@@ -30,6 +30,17 @@ class database:
         self.cursor = self.connection.cursor()
         self.cursor.execute("""
             CREATE TABLE IF NOT EXISTS users (
+                sequence_number SERIAL PRIMARY KEY,
+                id TEXT,
+                email TEXT,
+                phone_number TEXT
+            )
+        """)
+        self.connection.commit()
+
+        self.cursor = self.connection.cursor()
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS register (
                 sequence_number SERIAL PRIMARY KEY,
                 id TEXT,
                 email TEXT,
