@@ -31,20 +31,18 @@ class database:
         self.cursor.execute("""
             CREATE TABLE IF NOT EXISTS users (
                 sequence_number SERIAL PRIMARY KEY,
-                id TEXT,
-                email TEXT,
-                phone_number TEXT
+                login TEXT,
+                password TEXT
             )
         """)
         self.connection.commit()
 
         self.cursor = self.connection.cursor()
         self.cursor.execute("""
-            CREATE TABLE IF NOT EXISTS register (
+            CREATE TABLE IF NOT EXISTS account (
                 sequence_number SERIAL PRIMARY KEY,
-                id TEXT,
-                email TEXT,
-                phone_number TEXT
+                login TEXT,
+                password TEXT
             )
         """)
         self.connection.commit()
@@ -77,10 +75,19 @@ class database:
             user_dict = {'phone_number': i[2]}
             result.append(user_dict)
         return result
+
+    def logout(self, login: str, password: str) -> bool:
+        """Вход в аккаунт"""
+        self.cursor = self.connection.cursor()
+        self.cursor.execute("""
+            SELECT * FROM account WHERE login = %s AND password = %s
+        """, (login, password,))
+        return list(self.cursor.fetchall())
         
             
 
 
 if __name__ == "__main__":
-    database().system_add_user(users=100)
+    # database().system_add_user(users=100)
+    database().logout(login='admin', password='admin')
     # print(database().select_all_users())

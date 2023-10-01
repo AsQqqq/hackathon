@@ -7,6 +7,7 @@
         <!-- font Open Sans connect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/preloader.css') }}">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <!-- other -->
         <meta charset="UTF-8">
@@ -15,10 +16,15 @@
     </head>
 
     <body>
+        <div id="page-preloader" class="preloader">
+            <div class="loader"></div>
+        </div>
         <div class="parent">
-            <div class="backPanel">
-                <input type="submit" value="Вернуться" id="backBtn">
-            </div>
+            <form action="/join-to-server" method="POST">
+                <div class="backPanel">
+                    <input type="submit" value="Вернуться" id="backBtn">
+                </div>
+            </form>
             <div class="msgInputDivParent">
                 <span class="border rounded-3" id="userInfo">
                     <p id="numberUser">Номер пользователя!</p>
@@ -34,7 +40,18 @@
                 <input type="submit" value="История" id="historyBtn">
                 <input type="submit" value="Отправить сообщение" id="sendBtn">
             </div>
+
+            <form class="method" method="POST" action="/send">
+                <div class="body">
+                    <input 
+                        name="message"
+                        placeholder="Message"/>
+                    <input class="send_btn" type="submit" value="Send" />
+                </div>
+            </form>
+
         </div>
+        <script src="/static/javascript/preloader.js"></script
     </body>
 
 </html>
