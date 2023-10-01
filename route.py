@@ -39,8 +39,12 @@ def index() -> render_template:
 def join_to_server() -> None:
     login = request.form['login']
     password = request.form['password']
+
     warning_(login)
     warning_(password)
+    if login == "" or password == "":
+        return render_template('index.html')
+
     data = datab().select_all_users()
     return render_template('select_user.html', users_data=data)
 

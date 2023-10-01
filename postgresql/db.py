@@ -37,6 +37,17 @@ class database:
             )
         """)
         self.connection.commit()
+
+        self.cursor = self.connection.cursor()
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS register (
+                sequence_number SERIAL PRIMARY KEY,
+                id TEXT,
+                email TEXT,
+                phone_number TEXT
+            )
+        """)
+        self.connection.commit()
     
     def add_users(self, id: str, email: str, phone_number: str) -> None:
         """Добовление пользователей в таблицу"""
