@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- css link -->
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-        <!-- css bootstrap -->
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
-        <!-- font Open Sans connect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <!-- other -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-
-        <div class="additionalBtns">
-            <input type="text" id="elastic">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/preloader.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/transitions.css') }}">
+    <title>Вход</title>
+</head>
+<body>
+    <div id="page-preloader" class="preloader">
+      <div class="loader"></div>
+    </div>
+  
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Вход </h2>
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="/static/assets/user_join.svg" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+          <form action="/join-to-server" method="POST">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Логин">
+            <input type="text" id="password" class="fadeIn third" name="password" placeholder="Пароль">
+            <input type="submit" class="fadeIn fourth" value="Войти" name="submit_button">
+          </form>
         </div>
-
-        <span class="border rounded-3" id="phoneNumbers">
-            <ol class="elastic">
-                {% for i in users_data %}
-                <li class="userElement">{{ i.phone_number }}<div class="buttonContainer"><input type="submit" id="btn" onclick="sendPhoneNumber('{{ i.phone_number }}')"></div>
-                {% endfor %}
-            </ol>
-        </span>
-        <div class="btnContainer">
-            <form class="method" action="/next">
-                <input name="nextbtn" type="submit" value="Продолжить" id="ctnBtn">
-            </form>
-        </div>
-        <!-- вызов js -->
-        <script src="static/javascript/func.js"></script>
-        <!-- js bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-    </body>
+      </div>
+      <script src="/static/javascript/preloader.js"></script>
+      <script src="/static/javascript/swup.js"></script>
+</body>
 </html>

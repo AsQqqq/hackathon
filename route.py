@@ -29,11 +29,40 @@ list_message = [
 
 list_number = []
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def index() -> render_template:
-    """Главная страница"""
+    """Страница входа в аккаунт админа"""
+    return render_template('index.html')
+
+
+@app.route('/join-to-server', methods=['GET', 'POST'])
+def join_to_server() -> None:
+    login = request.form['login']
+    password = request.form['password']
+    warning_(login)
+    warning_(password)
     data = datab().select_all_users()
-    return render_template('index.html', users_data=data)
+    return render_template('select_user.html', users_data=data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @app.route('/phone-number', methods=['POST'])
