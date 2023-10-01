@@ -1,3 +1,7 @@
+body {
+    background-color: #56baed;
+}
+
 .hide {
     display: none;
 }
@@ -12,6 +16,7 @@
 
 .userElement {
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 .searchInfo {
@@ -21,10 +26,15 @@
 
 .additionalBtns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .elastic {
@@ -60,6 +70,16 @@
     flex-direction: column;
 }
 
+.buttonContainer {
+    display: inline;
+    margin-left: 20px;
+    background-image: url(../assets/plus-svgrepo-com.svg);
+}
+
+#btn {
+    background-image: url(../assets/plus-svgrepo-com.svg);
+}
+
 #backBtnFrmHstry {
     background-color: #e08860;
     color: #efefef;
@@ -76,7 +96,9 @@
 }
 
 #ctnBtn {
-    background-color: #e08860;
+    display: flex;
+    justify-content: center;
+    background-color: #39ace7;
     color: #efefef;
 }
 
