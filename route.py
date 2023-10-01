@@ -6,7 +6,6 @@ from postgresql import datab
 from time import sleep
 from multiprocessing import Process
  
-
 import json
 
 app = Flask(__name__)
@@ -36,41 +35,26 @@ def index() -> render_template:
 
 
 @app.route('/join-to-server', methods=['GET', 'POST'])
-def join_to_server() -> None:
-    login = request.form['login']
-    password = request.form['password']
-
-    warning_(login)
-    warning_(password)
-    if login == "" or password == "":
-        return render_template('index.html')
-
-    data = datab().select_all_users()
-    return render_template('select_user.html', users_data=data)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def join_to_server() -> render_template:
+    """Выбор пользователей"""
+    try:
+        login = request.form['login']
+        password = request.form['password']
+        if login == "" or password == "":
+            return render_template('index.html')
+        else:
+            lg = datab().logout(login=login, password=password)
+            if not lg:
+                return render_template('index.html')
+            else:
+                data = datab().select_all_users()
+                return render_template('select_user.html', users_data=data)
+    except:
+        return '404'
 
 @app.route('/phone-number', methods=['POST'])
 def handle_phone_number() -> str:
+    """Получение номера телефона из html"""
     phone_number = request.json['phone_number']
 
     if phone_number in list_number:
@@ -80,6 +64,33 @@ def handle_phone_number() -> str:
         list_number.append(phone_number)
         info_(phone_number)
     return 'ok'
+
+@app.route('/send_message', methods=['GET', 'POST'])
+def add_message() -> render_template:
+    """Страница отправки сообщения"""
+    if not list_number:
+        data = datab().select_all_users()
+        return render_template('select_user.html', users_data=data)
+    return render_template('message_user.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,10 +146,7 @@ def send_message_all_user(list_message, list_number):
 
     # return render_template('send.html')
 
-@app.route('/add_message', methods=['GET'])
-def add_message() -> render_template:
-    """Отправка сообщений"""
-    return render_template('add_message.html')
+
 
 @app.route('/history', methods=['GET'])
 def history() -> render_template:
