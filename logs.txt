@@ -1,0 +1,15 @@
+02:51:43,726 custom.clog [[32mINFO[0m] Файл "route" прогрузился
+02:51:43,905 werkzeug [[32mINFO[0m] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3040
+02:51:43,905 werkzeug [[32mINFO[0m] [33mPress CTRL+C to quit[0m
+02:51:43,911 werkzeug [[32mINFO[0m]  * Restarting with stat
+02:51:45,950 custom.clog [[32mINFO[0m] Файл "route" прогрузился
+02:51:45,966 werkzeug [[33mWARNING[0m]  * Debugger is active!
+02:51:45,966 werkzeug [[32mINFO[0m]  * Debugger PIN: 136-211-013
+02:51:51,33 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:51:51] "GET / HTTP/1.1" 200 -
+02:51:51,147 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:51:51] "GET /static/css/style.css HTTP/1.1" 200 -
+02:51:51,234 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:51:51] "GET /static/javascript/func.js HTTP/1.1" 200 -
+02:51:51,483 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:51:51] "GET /static/assets/background-image-city.jpg HTTP/1.1" 200 -
+02:52:25,615 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:52:25] "GET / HTTP/1.1" 200 -
+02:52:25,638 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:52:25] "GET /static/css/style.css HTTP/1.1" 200 -
+02:52:25,717 werkzeug [[32mINFO[0m] 127.0.0.1 - - [01/Oct/2023 02:52:25] "[36mGET /static/javascript/func.js HTTP/1.1[0m" 304 -
