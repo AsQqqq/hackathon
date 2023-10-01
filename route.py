@@ -46,7 +46,7 @@ def join_to_server() -> None:
         return render_template('index.html')
 
     data = datab().select_all_users()
-    return render_template('select_user.html', users_data=data)
+    return render_template('select_user.html', users_data=data, number=number, state=state)
 
 
 
@@ -65,20 +65,24 @@ def join_to_server() -> None:
 
 
 
-
+number = ''
+state = ''
 
 
 
 @app.route('/phone-number', methods=['POST'])
 def handle_phone_number() -> str:
+    global number, state
     phone_number = request.json['phone_number']
-
+    number = phone_number
     if phone_number in list_number:
         list_number.remove(phone_number)
         error_(phone_number)
+        state = 'True'
     else:
         list_number.append(phone_number)
         info_(phone_number)
+        state = 'False'
     return 'ok'
 
 
