@@ -48,7 +48,7 @@ class database:
         self.connection.commit()
     
     def add_users(self, id: str, email: str, phone_number: str) -> None:
-        """Добовление пользователей в таблицу"""
+        """Добавление пользователей в таблицу"""
         self.cursor = self.connection.cursor()
         self.cursor.execute("""INSERT INTO users (id, email, phone_number) VALUES (%s, %s, %s)""", 
                             (str(id), email, phone_number))
